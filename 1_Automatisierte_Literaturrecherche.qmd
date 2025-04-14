@@ -155,9 +155,9 @@ Nach dem mehrminütigen Bearbeiten der Aufgabe, wurden beide Reports exportiert 
 Der entstandene Gemini Deep Research Text Output wurde in Googles AI Studio eingefügt und der folgende Prompt ausgeführt:
 
 ::: {.callout-note collapse="true"}
-# Verwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):
+Verwendeter Prompt in Gemini Advanced (Deep Research mit 2.5 Pro)
 
-Konvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und füge ein passendes überarbeitetes Literaturverzeichnis am Ende ein. Den Rest des Textes niemals verändern.
+Konvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und füge ein passendes überarbeitetes Literaturverzeichnis am Ende ein. Gib den Text als formatierte Latex Datei aus. Den Rest des Textes niemals verändern.[Textinput der Datei Deep_Research_Gemini_Literatur_Performance_Effort_Output.docx]
 :::
 
 Das neu entstandene Dokument wurde erneut abgespeichert [📄 Deep_Research_Gemini_Output_APA7](Deep_Research_Gemini_Output_APA7.docx)
