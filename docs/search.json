@@ -4,7 +4,7 @@
     "href": "1_Literaturrecherche.html#aufgabe",
     "title": "1  Automatisierte Literaturrecherche anhand des Beispiels der Beziehung von Effort und Performance",
     "section": "1.1 Aufgabe",
-    "text": "1.1 Aufgabe\nGibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (Performance) und wenn ja, wie ist dieser Zusammenhang beschaffen (linear, polyonmial etc.)? Der Schwerpunkt der Recherche bildet also der Zusammenhang der psychologischen Konstrukte kognitiver Effort und kognitive Leistung. Ein weiteres Ziel war es ausserdem die Literatursuche soweit zu möglich mit KI Tools zu unterstützen und automatisieren. Als Idee dient dazu das Paper von Agent Laboratory."
+    "text": "1.1 Aufgabe\nGibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (Performance) und wenn ja, wie ist dieser Zusammenhang beschaffen (linear, polyonmial etc.)? Der Schwerpunkt der Recherche bildet also der Zusammenhang der psychologischen Konstrukte kognitiver Effort und kognitive Leistung. Ein weiteres Ziel war es ausserdem die Literatursuche soweit zu möglich mit KI Tools zu unterstützen und automatisieren. Als Ausgangspunkt dient dazu das Paper von Agent Laboratory."
   },
   {
     "objectID": "1_Literaturrecherche.html#resultat",
@@ -39,7 +39,7 @@
     "href": "1_Literaturrecherche.html#aufbereitung-des-textes-und-konvertierung-der-referenzen-in-apa7",
     "title": "1  Automatisierte Literaturrecherche anhand des Beispiels der Beziehung von Effort und Performance",
     "section": "1.6 Aufbereitung des Textes und Konvertierung der Referenzen in APA7",
-    "text": "1.6 Aufbereitung des Textes und Konvertierung der Referenzen in APA7\nDer entstandene Gemini Deep Research Text Output wurde in Gemini AI Studio eingefügt und der folgende Prompt ausgeführt:\n\n\n\n\n\n\nVerwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):\n\n\n\n\n\n«Konvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und ein passendes Literaturverzeichnis:» .\n\n\n\nDas neu entstandene Dokument wurde erneut abgespeichert 📄 Deep_Research_Gemini_Output_APA7"
+    "text": "1.6 Aufbereitung des Textes und Konvertierung der Referenzen in APA7\nDer entstandene Gemini Deep Research Text Output wurde in Googles AI Studio eingefügt und der folgende Prompt ausgeführt:\n\n\n\n\n\n\nVerwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):\n\n\n\n\n\nKonvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und füge ein passendes überarbeitetes Literaturverzeichnis am Ende ein. Den Rest des Textes niemals verändern.\n\n\n\nDas neu entstandene Dokument wurde erneut abgespeichert 📄 Deep_Research_Gemini_Output_APA7"
   },
   {
     "objectID": "1_Literaturrecherche.html#review-prozess",
@@ -102,7 +102,7 @@
     "href": "1_Literaturrecherche.html#ungültige-referenzen-erkennen",
     "title": "1  Automatisierte Literaturrecherche anhand des Beispiels der Beziehung von Effort und Performance",
     "section": "1.7 Ungültige Referenzen erkennen",
-    "text": "1.7 Ungültige Referenzen erkennen\nto be done (mit Python evtl. Link checken, mit API Google Gemini Deep_Research_Gemini_Output_APA7 inhaltlich checken, evtl. weitere Papers suchen)"
+    "text": "1.7 Ungültige Referenzen erkennen\nto be done (mit Python evtl. Links checken, mit API auf Google Gemini / ChatGPT zurückgreifen? Ganzen Prozess automatisieren) Literaturrecherche nach Heuristiken um schlechte Papers erkennen? Philosophie: Erkenntnisstheorie? Hauptpunkt: Deep_Research_Gemini_Output_APA7 inhaltlich checken, evtl. weitere Papers zu Methoden suchen)"
   },
   {
     "objectID": "1_Literaturrecherche.html#menschliche-endkontrolle",
@@ -131,5 +131,19 @@
     "title": "1  Automatisierte Literaturrecherche anhand des Beispiels der Beziehung von Effort und Performance",
     "section": "1.9 Ganzen Überprüfungsporzess automatisieren z.B. KI Reviewer Prozess",
     "text": "1.9 Ganzen Überprüfungsporzess automatisieren z.B. KI Reviewer Prozess\nto be done (https://agentlaboratory.github.io/ und ähnliche Papers)\n\n\n\n\n\n\nVerwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):\n\n\n\n\n\nRespond in the following format: THOUGHT:  REVIEW JSON: json &lt;JSON&gt; In , first briefly discuss your intuitions and reasoning for the evaluation. Detail your high-level arguments, necessary choices and desired outcomes of the review. Do not make generic comments here, but be specific to your current paper. Treat this as the note-taking phase of your review. In , provide the review in JSON format with the following fields in the order:- “Summary”: A summary of the paper content and its contributions.- “Strengths”: A list of strengths of the paper.- “Weaknesses”: A list of weaknesses of the paper.- “Originality”: A rating from 1 to 4 (low, medium, high, very high).- “Quality”: A rating from 1 to 4 (low, medium, high, very high).- “Clarity”: A rating from 1 to 4 (low, medium, high, very high).- “Significance”: A rating from 1 to 4 (low, medium, high, very high).- “Questions”: A set of clarifying questions to be answered by the paper authors.- “Limitations”: A set of limitations and potential negative societal impacts of the work.- “Ethical Concerns”: A boolean value indicating whether there are ethical concerns.- “Soundness”: A rating from 1 to 4 (poor, fair, good, excellent).- “Presentation”: A rating from 1 to 4 (poor, fair, good, excellent).- “Contribution”: A rating from 1 to 4 (poor, fair, good, excellent).- “Overall”: A rating from 1 to 10 (very strong reject to award quality).- “Confidence”: A rating from 1 to 5 (low, medium, high, very high, absolute).- “Decision”: A decision that has to be one of the following: Accept, Reject. For the “Decision” field, don’t use Weak Accept, Borderline Accept, Borderline Reject, or Strong Reject. Instead, only use Accept or Reject. This JSON will be automatically parsed, so ensure the format is precise."
+  },
+  {
+    "objectID": "1_Literaturrecherche.html#evtl.-alternative-recherche-mit-chatgpt-oder-anderen-tools-unter-berücksichtigung-von-passender-forschungsmethodik",
+    "href": "1_Literaturrecherche.html#evtl.-alternative-recherche-mit-chatgpt-oder-anderen-tools-unter-berücksichtigung-von-passender-forschungsmethodik",
+    "title": "1  Automatisierte Literaturrecherche anhand des Beispiels der Beziehung von Effort und Performance",
+    "section": "1.10 Evtl. alternative Recherche mit ChatGPT oder anderen Tools unter Berücksichtigung von passender Forschungsmethodik",
+    "text": "1.10 Evtl. alternative Recherche mit ChatGPT oder anderen Tools unter Berücksichtigung von passender Forschungsmethodik\nto be done"
+  },
+  {
+    "objectID": "1_Literaturrecherche.html#ganzen-überprüfungsprozess-automatisieren-z.b.-ki-reviewer-prozess",
+    "href": "1_Literaturrecherche.html#ganzen-überprüfungsprozess-automatisieren-z.b.-ki-reviewer-prozess",
+    "title": "1  Automatisierte Literaturrecherche anhand des Beispiels der Beziehung von Effort und Performance",
+    "section": "1.9 Ganzen Überprüfungsprozess automatisieren z.B. KI Reviewer Prozess",
+    "text": "1.9 Ganzen Überprüfungsprozess automatisieren z.B. KI Reviewer Prozess\nto be done (https://agentlaboratory.github.io/ und ähnliche Papers)\n\n\n\n\n\n\nVerwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):\n\n\n\n\n\nRespond in the following format: THOUGHT:  REVIEW JSON: json &lt;JSON&gt; In , first briefly discuss your intuitions and reasoning for the evaluation. Detail your high-level arguments, necessary choices and desired outcomes of the review. Do not make generic comments here, but be specific to your current paper. Treat this as the note-taking phase of your review. In , provide the review in JSON format with the following fields in the order:- “Summary”: A summary of the paper content and its contributions.- “Strengths”: A list of strengths of the paper.- “Weaknesses”: A list of weaknesses of the paper.- “Originality”: A rating from 1 to 4 (low, medium, high, very high).- “Quality”: A rating from 1 to 4 (low, medium, high, very high).- “Clarity”: A rating from 1 to 4 (low, medium, high, very high).- “Significance”: A rating from 1 to 4 (low, medium, high, very high).- “Questions”: A set of clarifying questions to be answered by the paper authors.- “Limitations”: A set of limitations and potential negative societal impacts of the work.- “Ethical Concerns”: A boolean value indicating whether there are ethical concerns.- “Soundness”: A rating from 1 to 4 (poor, fair, good, excellent).- “Presentation”: A rating from 1 to 4 (poor, fair, good, excellent).- “Contribution”: A rating from 1 to 4 (poor, fair, good, excellent).- “Overall”: A rating from 1 to 10 (very strong reject to award quality).- “Confidence”: A rating from 1 to 5 (low, medium, high, very high, absolute).- “Decision”: A decision that has to be one of the following: Accept, Reject. For the “Decision” field, don’t use Weak Accept, Borderline Accept, Borderline Reject, or Strong Reject. Instead, only use Accept or Reject. This JSON will be automatically parsed, so ensure the format is precise."
   }
 ]

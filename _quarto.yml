@@ -7,7 +7,7 @@ book:
   date: "14.4.2025"
   chapters:
     - index.qmd
-    - 1_Literaturrecherche.qmd
+    - 1_Automatisierte_Literaturrecherche.qmd
     - references.qmd
 
 

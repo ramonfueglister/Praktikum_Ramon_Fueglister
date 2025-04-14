@@ -6,11 +6,11 @@ format: html
 
 ## Aufgabe
 
-Gibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (Performance) und wenn ja, wie ist dieser Zusammenhang beschaffen (linear, polyonmial etc.)? Der Schwerpunkt der Recherche bildet also der Zusammenhang der psychologischen Konstrukte kognitiver Effort und kognitive Leistung. Ein weiteres Ziel war es ausserdem die Literatursuche soweit zu möglich mit KI Tools zu unterstützen und automatisieren. Als Idee dient dazu das Paper von [Agent Laboratory](https://agentlaboratory.github.io/).
+Gibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (Performance) und wenn ja, wie ist dieser Zusammenhang beschaffen (linear, polyonmial etc.)? Der Schwerpunkt der Recherche bildet also der Zusammenhang der psychologischen Konstrukte kognitiver Effort und kognitive Leistung. Ein weiteres Ziel war es ausserdem die Literatursuche soweit zu möglich mit KI Tools zu unterstützen und automatisieren. Als Ausgangspunkt dient dazu das Paper von [Agent Laboratory](https://agentlaboratory.github.io/).
 
 ## Resultat
 
-Der provisorische Report ist  [📄 Hier](mein-dokument.docx){.btn .btn-primary} verfügbar.
+Der provisorische Report ist [📄 Hier](mein-dokument.docx){.btn .btn-primary} verfügbar.
 
 ## Auswahl der Methodik für die Recherche
 
@@ -65,7 +65,7 @@ Diese Tabelle bietet verschiedene Suchstring-Varianten, von breit bis spezifisch
 Hier ist eine Liste der wichtigsten Datenbanken, wobei der "freie Zugang" oft bedeutet, dass die Suche und Abstracts frei sind, der Volltext aber hinter einer Paywall liegen kann (oft über Universitäts-/Institutionsbibliotheken zugänglich).
 
 |                                                   |                                                                                                                                                   |                                                                                                                |                                                                                                                                                                                                                              |
-|----------------|----------------|----------------|------------------------|
+|-----------------|-----------------|-----------------|----------------------|
 | Datenbank                                         | Fokus / Beschreibung                                                                                                                              | Zugang                                                                                                         | Relevanz für Ihr Thema                                                                                                                                                                                                       |
 | **Google Scholar**                                | Sehr breite Abdeckung über alle Disziplinen, inklusive Preprints, Konferenzbeiträge, Thesen. Einfache Suche, gute Zitationsverfolgung.            | Frei zugänglich (Suche & Abstracts). Volltexte oft verlinkt (manchmal frei, manchmal Paywall).                 | **Sehr hoch.** Exzellenter Startpunkt, findet viel, auch Graue Literatur und Preprints. Qualitätskontrolle ist aber geringer als bei kuratierten Datenbanken.                                                                |
 | **arXiv.org**                                     | Der Preprint-Server für Physik, Mathematik, Informatik (CS), Statistik, Elektrotechnik, Quantitative Biologie, Quantitative Finanzwissenschaften. | Völlig frei zugänglich (Suche & Volltexte).                                                                    | **Sehr hoch.** Hier werden die meisten bahnbrechenden Arbeiten im Bereich KI/ML zuerst veröffentlicht (als Preprints). Unverzichtbar für aktuelle Forschung, insbesondere aus der Informatik.                                |
@@ -100,8 +100,7 @@ Hier ist eine Liste der wichtigsten Datenbanken, wobei der "freie Zugang" oft be
 Viel Erfolg bei Ihrer Recherche!
 :::
 
-Diese Suchbegriffe, brachten viele interessante Papers zum Einsatz von "research workflow llm" mit Python etc. hervor, z.B. 
-https://agentlaboratory.github.io/ etc.
+Diese Suchbegriffe, brachten viele interessante Papers zum Einsatz von "research workflow llm" mit Python etc. hervor, z.B. https://agentlaboratory.github.io/ etc.
 
 ### Recherche mit Deep Research Tools nach "KI unterstützte Suche nach Forschungsliteratur"
 
@@ -117,16 +116,17 @@ Diese Tabelle bietet verschiedene Suchstring-Varianten, von breit bis spezifisch
 Fokus / Ziel Suchbegriffe (Beispiele für Google Scholar & Co.) Hinweise / Strategie Breit: KI & Recherche allgemein "artificial intelligence" OR AI OR "machine learning" AND "research process" OR "information retrieval" OR "literature review" Startpunkt, um das Feld breit zu erfassen. Kombiniert allgemeine KI-Begriffe mit Rechercheaktivitäten. Fokus: KI-Unterstützung im Workflow "AI-assisted" OR "AI-supported" OR "AI-driven" AND "research workflow" OR "literature review workflow" OR "systematic review" Konzentriert sich auf die Unterstützung durch KI im Forschungsprozess, insbesondere bei etablierten Methoden wie systematischen Reviews. Fokus: Generative KI / LLMs in Recherche "Generative AI" OR "Large Language Models" OR LLM AND "research" OR "academic research" OR "scientific writing" OR "knowledge discovery" Zielt auf neuere Entwicklungen mit Modellen wie GPT ab. Verbindet diese Technologien mit Forschungsanwendungen. Spezifisch: ChatGPT in Recherche "ChatGPT" AND ("research workflow" OR "literature review" OR "academic writing" OR "research assistant" OR "systematic review") Sucht gezielt nach Studien, die den Einsatz von ChatGPT im Forschungskontext untersuchen. Spezifisch: OpenAI (als Technologiegeber) "OpenAI" AND ("research tool" OR "literature analysis" OR "scientific discovery") Vorsicht: Kann auch Treffer zur Firma OpenAI selbst liefern. Präziser mit Fokus auf Anwendungen. Evtl. kombinieren: "OpenAI" AND "ChatGPT" AND "research" Spezifisch: Andere Tools (Beispiel) "Deep Research" AND "AI" AND ("research tool" OR "literature review") Ersetzen Sie "Deep Research" durch andere bekannte Tool-Namen. Anführungszeichen sind wichtig, um genau diesen Namen zu finden. Kontext (AI, research tool) hilft zur Abgrenzung. Fokus: KI-Tools für Recherche "AI research tool" OR "AI literature review tool" OR "AI knowledge discovery platform" Sucht nach der Beschreibung von Werkzeugen selbst, nicht nur deren Anwendung. Kombination: Workflow & Spezifisches Tool ("research workflow" OR "literature review") AND ("ChatGPT" OR "Generative AI" OR "LLM") Kombiniert den Prozess (Workflow) mit den spezifischen Technologien/Tools. Alternative Formulierungen "intelligent research assistant" OR "AI co-pilot for research" OR "automated literature search" Fängt alternative Bezeichnungen und Konzepte auf.
 :::
 
-To be Done: Hier noch einfügen was die Resultate von Deep Research für KI Workflows erbrachten 
+To be Done: Hier noch einfügen was die Resultate von Deep Research für KI Workflows erbrachten
 
 ## Durchführung der Recherche
 
 ## Explorative Recherche mit Deep Research Tools zur Forschungsfrage
 
-Die weitergehende Forschung zu diesen beiden Tools noch fehlt, wurde der Report ohne weitere Instruktionen sowohl für Deep Research von Open AI und Deep Research (14.04.2025) direkt verwendet: 
+Die weitergehende Forschung zu diesen beiden Tools noch fehlt, wurde der Report ohne weitere Instruktionen sowohl für Deep Research von Open AI und Deep Research (14.04.2025) direkt verwendet:
 
 ::: {.callout-note collapse="true"}
 # Verwendeter Prompt in Gemini Advanced (Deep Research mit 2.5 Pro) und ChatGPT Deep Research:
+
 Führe eine allumfassende Literaturrecherche zum Zusammenhang zwischen kognitiver Anstrengung (cognitive effort) und kognitiver Performance durch. Konzentriere dich dabei primär auf psychologische Studien und Modelle, beziehe aber sämtliche relevante Erkenntnisse aus angrenzenden Disziplinen wie den Kognitions- und Neurowissenschaften, Wirtschaftswissenschaften, Biologie etc. mit ein. Priorisiere bei der Recherche Publikationen aus hochrangigen, peer-reviewten Fachzeitschriften (High-Impact Journals). Die Recherche soll folgende Kernfragen beleuchten: Linearität: Gibt es Evidenz für einen direkten, linearen Zusammenhang zwischen dem Grad der unmittelbaren Anstrengung und dem Niveau der kognitiven Leistung? Nicht-Linearität & optimale Anstrengung: Welche Belege gibt es für nicht-lineare Zusammenhänge (z.B. U-förmig, invers U-förmig)? Unter welchen Umständen führt mehr Anstrengung nicht zu besserer Leistung oder sogar zu einer Leistungsverschlechterung? Moderierende Faktoren: Welche Variablen beeinflussen die Beziehung zwischen Anstrengung und Leistung maßgeblich (z.B. Aufgabenkomplexität, Aufgabentyp, Motivation, individuelle Fähigkeiten, Müdigkeit, Alter, wahrgenommene Selbstwirksamkeit)? Theoretische Grundlagen: Welche etablierten Theorien oder Modelle werden herangezogen, um diesen Zusammenhang zu erklären? Messung: Wie werden 'momentane kognitive Anstrengung' und 'kognitive Performance' in diesen Studien typischerweise operationalisiert und gemessen? Bitte synthetisiere die wichtigsten Ergebnisse äusserst ausführlich (10000 Seiten) , identifiziere zentrale Debatten oder Forschungslücken und erstelle eine Liste der relevantesten Schlüsselpublikationen (inklusive wichtiger Reviews oder Meta-Analysen). Wenn möglich, gib die Referenzen im APA 7 Format an oder stelle die Informationen so bereit, dass sie leicht in dieses Format überführt werden können. (1) Recherchiere etablierte Definitionen und Konzepte von kognitiver Anstrengung und kognitiver Leistung in der Psychologie, den Kognitions- und Neurowissenschaften sowie sämtlichen angrenzenden relevanten Disziplinen. (2) Suche nach empirischen Studien und Meta-Analysen, die einen linearen Zusammenhang zwischen dem Ausmaß kognitiver Anstrengung und dem Niveau kognitiver Leistung untersuchen. (3) Identifiziere Forschungsarbeiten, die nicht-lineare Beziehungen (z.B. invertierte U-Form) zwischen kognitiver Anstrengung und Leistung belegen, einschließlich Studien zu Phänomenen wie "Choking under Pressure" oder Leistungsabfall bei Überanstrengung. (4) Untersuche Studien, die Moderatoren der Beziehung zwischen kognitiver Anstrengung und Leistung analysieren, darunter: (a) Aufgabenmerkmale (z.B. Komplexität, Typ, Dauer) (b) Individuelle Unterschiede (z.B. Motivation, Fähigkeiten, Alter, Ermüdung, Selbstwirksamkeit) (c) Kontextfaktoren (z.B. Stress, Anreize) (5) Recherchiere zentrale theoretische Modelle, die zur Erklärung des Zusammenhangs zwischen kognitiver Anstrengung und Leistung herangezogen werden. Analysiere ihre Grundannahmen und Vorhersagen. (6) Finde heraus, wie kognitive Anstrengung (z.B. subjektive Bewertungen, physiologische Maße wie Pupillometrie, Herzratenvariabilität, EEG/fMRT) und kognitive Leistung (z.B. Genauigkeit, Reaktionszeit) in der Forschung typischerweise operationalisiert und gemessen werden. (7) Synthetisiere die Ergebnisse der Recherche, identifiziere zentrale wissenschaftliche Debatten, widersprüchliche Befunde und offene Forschungsfragen im Themenbereich. (8) Erstelle eine Liste der Schlüsselpublikationen (einschließlich wichtiger Übersichtsarbeiten und Meta-Analysen) zum Thema und extrahiere die bibliographischen Informationen (Autoren, Jahr, Titel, Zeitschrift, DOI), um eine Formatierung im APA-7-Stil zu ermöglichen.
 :::
 
@@ -134,6 +134,7 @@ Auf die untenstehende Rückfrage von ChatGPT wurde mit "Den besten und umfangrei
 
 ::: {.callout-tip collapse="true"}
 # ChatGPT Deep Research:
+
 Vielen Dank für den umfassenden Auftrag! Damit ich mit der Recherche beginnen kann:
 
 Gibt es einen bestimmten zeitlichen Rahmen, den du bevorzugst (z.B. Publikationen der letzten 10 oder 20 Jahre)?
@@ -147,54 +148,48 @@ Möchtest du die Ergebnisse als Fließtext (z.B. für ein Paper) oder auch in Ta
 Sobald ich das weiß, starte ich direkt mit der Recherche!
 :::
 
-Nach dem mehrminütigen Bearbeiten der Aufgabe, wurden beide Reports exportiert und abgespeichert, einmal das Ergebnis von [📄 Deep_Research_ChatGPT_Output](static/Deep_Research_ChatGPT_Literatur_KI_Suche_Output.docx){.btn .btn-primary} sowie von Gemini 
-[📄 Deep_Research_Gemini_Output](static/Deep_Research_Gemini_Literatur_Performance_Effort_Output.docx){.btn .btn-primary}. Augenscheinvalidität zeigte ein deutlich besseres Ergebnis für Gemini, weshalb dieser Report weiter bearbeitet wurde.
+Nach dem mehrminütigen Bearbeiten der Aufgabe, wurden beide Reports exportiert und abgespeichert, einmal das Ergebnis von [📄 Deep_Research_ChatGPT_Output](static/Deep_Research_ChatGPT_Literatur_KI_Suche_Output.docx) sowie von Gemini [📄 Deep_Research_Gemini_Output](static/Deep_Research_Gemini_Literatur_Performance_Effort_Output.docx). Augenscheinvalidität zeigte ein deutlich besseres Ergebnis für Gemini, weshalb dieser Report weiter bearbeitet wurde.
 
 ## Aufbereitung des Textes und Konvertierung der Referenzen in APA7
 
-Der entstandene Gemini Deep Research Text Output wurde in Gemini AI Studio eingefügt und der folgende Prompt ausgeführt: 
+Der entstandene Gemini Deep Research Text Output wurde in Googles AI Studio eingefügt und der folgende Prompt ausgeführt:
 
 ::: {.callout-note collapse="true"}
 # Verwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):
-«Konvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und ein passendes Literaturverzeichnis:»
-.
+
+Konvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und füge ein passendes überarbeitetes Literaturverzeichnis am Ende ein. Den Rest des Textes niemals verändern.
 :::
 
-Das neu entstandene Dokument wurde erneut abgespeichert [📄 Deep_Research_Gemini_Output_APA7](Deep_Research_Gemini_Output_APA7.docx){.btn .btn-primary}
-
-
+Das neu entstandene Dokument wurde erneut abgespeichert [📄 Deep_Research_Gemini_Output_APA7](Deep_Research_Gemini_Output_APA7.docx)
 
 ## Ungültige Referenzen erkennen
-to be done (mit  Python evtl. Link checken,  mit API Google Gemini Deep_Research_Gemini_Output_APA7 inhaltlich checken, evtl. weitere Papers suchen)
+
+to be done (mit Python evtl. Links checken, mit API auf Google Gemini / ChatGPT zurückgreifen? Ganzen Prozess automatisieren) Literaturrecherche nach Heuristiken um schlechte Papers erkennen? Philosophie: Erkenntnisstheorie? Hauptpunkt: Deep_Research_Gemini_Output_APA7 inhaltlich checken, evtl. weitere Papers zu Methoden suchen)
 
 ## Menschliche Überprüfung
-to be done 
 
+to be done
 
 ### Mögliches kausales Modell zeichnen aufgrund der Forschungsliteratur
+
 to be done (evtl. Papers suchen)
 
-## Ganzen Überprüfungsporzess automatisieren z.B. KI Reviewer Prozess
+## Ganzen Überprüfungsprozess automatisieren z.B. KI Reviewer Prozess
+
 to be done (https://agentlaboratory.github.io/ und ähnliche Papers)
 
 ::: {.callout-note collapse="true"}
 # Verwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):
-Respond in the following format: THOUGHT: <THOUGHT> REVIEW JSON: ```json <JSON> ``` In <THOUGHT>, first briefly discuss your intuitions and reasoning for the evaluation. Detail your high-level arguments, necessary choices and desired outcomes of the review. Do not make generic comments here, but be specific to your current paper. Treat this as the note-taking phase of your review. In <JSON>, provide the review in JSON format with the following fields in the order:- "Summary": A summary of the paper content and its contributions.- "Strengths": A list of strengths of the paper.- "Weaknesses": A list of weaknesses of the paper.- "Originality": A rating from 1 to 4 (low, medium, high, very high).- "Quality": A rating from 1 to 4 (low, medium, high, very high).- "Clarity": A rating from 1 to 4 (low, medium, high, very high).- "Significance": A rating from 1 to 4 (low, medium, high, very high).- "Questions": A set of clarifying questions to be answered by the paper authors.- "Limitations": A set of limitations and potential negative societal impacts of the work.- "Ethical Concerns": A boolean value indicating whether there are ethical concerns.- "Soundness": A rating from 1 to 4 (poor, fair, good, excellent).- "Presentation": A rating from 1 to 4 (poor, fair, good, excellent).- "Contribution": A rating from 1 to 4 (poor, fair, good, excellent).- "Overall": A rating from 1 to 10 (very strong reject to award quality).- "Confidence": A rating from 1 to 5 (low, medium, high, very high, absolute).- "Decision": A decision that has to be one of the following: Accept, Reject. For the "Decision" field, don’t use Weak Accept, Borderline Accept, Borderline Reject, or Strong Reject. Instead, only use Accept or Reject. This JSON will be automatically parsed, so ensure the format is precise.
+
+Respond in the following format: THOUGHT: <THOUGHT> REVIEW JSON: `json <JSON>` In <THOUGHT>, first briefly discuss your intuitions and reasoning for the evaluation. Detail your high-level arguments, necessary choices and desired outcomes of the review. Do not make generic comments here, but be specific to your current paper. Treat this as the note-taking phase of your review. In <JSON>, provide the review in JSON format with the following fields in the order:- "Summary": A summary of the paper content and its contributions.- "Strengths": A list of strengths of the paper.- "Weaknesses": A list of weaknesses of the paper.- "Originality": A rating from 1 to 4 (low, medium, high, very high).- "Quality": A rating from 1 to 4 (low, medium, high, very high).- "Clarity": A rating from 1 to 4 (low, medium, high, very high).- "Significance": A rating from 1 to 4 (low, medium, high, very high).- "Questions": A set of clarifying questions to be answered by the paper authors.- "Limitations": A set of limitations and potential negative societal impacts of the work.- "Ethical Concerns": A boolean value indicating whether there are ethical concerns.- "Soundness": A rating from 1 to 4 (poor, fair, good, excellent).- "Presentation": A rating from 1 to 4 (poor, fair, good, excellent).- "Contribution": A rating from 1 to 4 (poor, fair, good, excellent).- "Overall": A rating from 1 to 10 (very strong reject to award quality).- "Confidence": A rating from 1 to 5 (low, medium, high, very high, absolute).- "Decision": A decision that has to be one of the following: Accept, Reject. For the "Decision" field, don't use Weak Accept, Borderline Accept, Borderline Reject, or Strong Reject. Instead, only use Accept or Reject. This JSON will be automatically parsed, so ensure the format is precise.
 :::
 
-## Recherche mit ChatGPT oder anderen Tools unter Berücksichtigung von passender Forschungsmethodik
+## Evtl. alternative Recherche mit ChatGPT oder anderen Tools unter Berücksichtigung von passender Forschungsmethodik
+
 to be done
 
 ## Resultate des Literature Reviews
+
 to be done
 
 ## Literatur
-
-
-
-
-
-
-
-
-
