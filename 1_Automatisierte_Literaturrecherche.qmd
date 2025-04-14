@@ -10,7 +10,7 @@ Gibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (P
 
 ## Resultat
 
-Der provisorische Report ist [📄 Hier](mein-dokument.docx){.btn .btn-primary} verfügbar.
+Der  [📄 Provisorische Report ](mein-dokument.docx) und ein Executive Summary [📄 Executive Summary](Executive_Summary.pdf) ist bereits verfügbar.
 
 ## Auswahl der Methodik für die Recherche
 
@@ -151,16 +151,16 @@ Sobald ich das weiß, starte ich direkt mit der Recherche!
 Nach dem mehrminütigen Bearbeiten der Aufgabe, wurden beide Reports exportiert und abgespeichert, einmal das Ergebnis von [📄 Deep_Research_ChatGPT_Output](static/Deep_Research_ChatGPT_Literatur_KI_Suche_Output.docx) sowie von Gemini [📄 Deep_Research_Gemini_Output](static/Deep_Research_Gemini_Literatur_Performance_Effort_Output.docx). Augenscheinvalidität zeigte ein deutlich besseres Ergebnis für Gemini, weshalb dieser Report weiter bearbeitet wurde.
 
 ## Aufbereitung des Textes und Konvertierung der Referenzen in APA7
-
+To be done (Google Gemini ist überlastet...)
 Der entstandene Gemini Deep Research Text Output wurde in Googles AI Studio eingefügt und der folgende Prompt ausgeführt:
 
 ::: {.callout-note collapse="true"}
 Verwendeter Prompt in Gemini Advanced (Deep Research mit 2.5 Pro)
 
-Konvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und füge ein passendes überarbeitetes Literaturverzeichnis am Ende ein. Gib den Text als formatierte Latex Datei aus. Den Rest des Textes niemals verändern.[Textinput der Datei Deep_Research_Gemini_Literatur_Performance_Effort_Output.docx]
+Konvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und füge ein passendes überarbeitetes Literaturverzeichnis am Ende ein. Gib den Text schön formatiert aus. Den Rest des Textes niemals verändern, sämtliche Zitate und Quellen werden noch manuell anschliessend überprüft.[Hier steht der Textinput der Datei Deep_Research_Gemini_Literatur_Performance_Effort_Output.docx]
 :::
 
-Das neu entstandene Dokument wurde erneut abgespeichert [📄 Deep_Research_Gemini_Output_APA7](Deep_Research_Gemini_Output_APA7.docx)
+Das neu entstandene Dokument wurde erneut abgespeichert...
 
 ## Ungültige Referenzen erkennen
 

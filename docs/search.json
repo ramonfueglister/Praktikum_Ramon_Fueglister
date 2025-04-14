@@ -158,7 +158,7 @@
     "href": "1_Automatisierte_Literaturrecherche.html#resultat",
     "title": "1  Automatisierte Literaturrecherche anhand des Beispiels der Beziehung von Effort und Performance",
     "section": "1.2 Resultat",
-    "text": "1.2 Resultat\nDer provisorische Report ist 📄 Hier verfügbar."
+    "text": "1.2 Resultat\nDer 📄 Provisorische Report und ein Executive Summary 📄 Executive Summary ist bereits verfügbar."
   },
   {
     "objectID": "1_Automatisierte_Literaturrecherche.html#auswahl-der-methodik-für-die-recherche",
@@ -186,7 +186,7 @@
     "href": "1_Automatisierte_Literaturrecherche.html#aufbereitung-des-textes-und-konvertierung-der-referenzen-in-apa7",
     "title": "1  Automatisierte Literaturrecherche anhand des Beispiels der Beziehung von Effort und Performance",
     "section": "1.6 Aufbereitung des Textes und Konvertierung der Referenzen in APA7",
-    "text": "1.6 Aufbereitung des Textes und Konvertierung der Referenzen in APA7\nDer entstandene Gemini Deep Research Text Output wurde in Googles AI Studio eingefügt und der folgende Prompt ausgeführt:\n\n\n\n\n\n\nNote\n\n\n\n\n\nVerwendeter Prompt in Gemini Advanced (Deep Research mit 2.5 Pro)\nKonvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und füge ein passendes überarbeitetes Literaturverzeichnis am Ende ein. Gib den Text als formatierte Latex Datei aus. Den Rest des Textes niemals verändern.[Textinput der Datei Deep_Research_Gemini_Literatur_Performance_Effort_Output.docx]\n\n\n\nDas neu entstandene Dokument wurde erneut abgespeichert 📄 Deep_Research_Gemini_Output_APA7"
+    "text": "1.6 Aufbereitung des Textes und Konvertierung der Referenzen in APA7\nTo be done (Google Gemini ist überlastet…) Der entstandene Gemini Deep Research Text Output wurde in Googles AI Studio eingefügt und der folgende Prompt ausgeführt:\n\n\n\n\n\n\nNote\n\n\n\n\n\nVerwendeter Prompt in Gemini Advanced (Deep Research mit 2.5 Pro)\nKonvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und füge ein passendes überarbeitetes Literaturverzeichnis am Ende ein. Gib den Text schön formatiert aus. Den Rest des Textes niemals verändern, sämtliche Zitate und Quellen werden noch manuell anschliessend überprüft.[Hier steht der Textinput der Datei Deep_Research_Gemini_Literatur_Performance_Effort_Output.docx]\n\n\n\nDas neu entstandene Dokument wurde erneut abgespeichert…"
   },
   {
     "objectID": "1_Automatisierte_Literaturrecherche.html#ungültige-referenzen-erkennen",
