@@ -1,0 +1,75 @@
+---
+title: "Untitled"
+---
+### Prompt für eine Anfrage zum Thema Workflow für die Recherche mit Deep Research mit AI optimieren
+
+Zunächst wurde der Prompt für eine AI Literaturrecherche mit [Google AI Studio](https://aistudio.google.com/) und dem Modell "Gemini 2.5 Pro Preview 03-25" (Stand 13.04.2025) optimiert:
+
+::: {.callout-note collapse="true"}
+# Verwendeter Prompt:
+
+Optimiere meinen Prompt zum Thema KI unterstützte Literaturrecherche in der Forschung. Wie kann ich das im Jahr 2025 optimalerweise machen? Es geht darum einen perfekten Workflow für den Einsatz sämtlicher relevanten Tools (LLMs aber auch Einsatz von Python etc.) zu bekommen, inkl. möglicher Gefahren und Chancen. Der ganze Workflow muss extrem ausführlich beschrieben sein und darf niemals hypothetische Tools oder Funktionen beinhalten, sondern muss ausschliesslich auf bekannte Funktionalitäten aufsetzen. Ich brauche einen vollständigen Prompt.
+:::
+
+::: {.callout-tip collapse="true"}
+# AI Output
+
+Okay, hier ist ein optimierter Prompt, der darauf abzielt, einen detaillierten, praxisnahen und auf bekannten Technologien basierenden Workflow für die KI-gestützte Literaturrecherche im Jahr 2025 zu generieren. Dieser Prompt ist so formuliert, dass er einer leistungsstarken KI (wie GPT-4 oder Nachfolgemodellen) gegeben werden kann, um den gewünschten Workflow zu erstellen.
+
+------------------------------------------------------------------------
+
+**Prompt:**
+
+**Rolle:** Du bist ein Experte für Forschungsmethodik, wissenschaftliches Arbeiten und den Einsatz von künstlicher Intelligenz in der Wissenschaft, mit einem Fokus auf den Stand der Technik Anfang 2025.
+
+**Aufgabe:** Erstelle einen extrem ausführlichen, schrittweisen Workflow für die Durchführung einer umfassenden Literaturrecherche in einem beliebigen Forschungsfeld unter maximaler Nutzung von KI-Tools und -Technologien, wie sie bis Anfang 2025 realistischerweise etabliert und zugänglich sind. Der Workflow muss praxisorientiert sein und sich ausschließlich auf bekannte und verfügbare Funktionalitäten stützen. Hypothetische oder zukünftige, noch nicht entwickelte Tools oder Funktionen dürfen NICHT inkludiert werden.
+
+**Zielgruppe des Workflows:** Wissenschaftler und Forscher (Doktoranden, Postdocs, etablierte Forscher).
+
+**Anforderungen an den Workflow:**
+
+1.  **Detaillierungsgrad:** Jeder Schritt muss sehr detailliert beschrieben werden. Was genau ist zu tun? Welche spezifischen (Typen von) Tools werden eingesetzt? Wie interagieren die Tools? Wo ist menschliches Eingreifen und kritische Bewertung unerlässlich?
+2.  **Phasen:** Gliedere den Workflow logisch in die typischen Phasen einer Literaturrecherche, z. B.:
+    -   Phase 1: Planung & Definition (Forschungsfrage schärfen, Suchstrategie konzipieren)
+    -   Phase 2: Suche & Identifikation (Papers finden)
+    -   Phase 3: Screening & Auswahl (Relevanzprüfung)
+    -   Phase 4: Datenextraktion & Analyse (Informationen aus Papers ziehen)
+    -   Phase 5: Synthese & Berichterstattung (Ergebnisse zusammenfassen, Lücken identifizieren)
+    -   Phase 6: Management & Aktualisierung (Referenzen verwalten, Recherche aktuell halten)
+3.  **Tool-Integration:** Beschreibe bei jedem relevanten Schritt konkret, wie folgende Tool-Kategorien (basierend auf Stand Anfang 2025) eingesetzt werden können:
+    -   **Large Language Models (LLMs):** z.B. GPT-4/Nachfolger, Claude-Modelle, Gemini/Bard für Aufgaben wie Brainstorming, Keyword-Generierung, Textzusammenfassung, Umformulierung, erste Syntheseentwürfe, Query-Optimierung. Spezifiziere die genaue Anwendung und die notwendige menschliche Verifikation.
+    -   **Spezialisierte KI-Such- und Analyseplattformen:** z.B. Elicit, Semantic Scholar, Scite, ResearchRabbit, Connected Papers, Litmaps. Beschreibe deren spezifische Stärken (semantische Suche, Zitationsanalyse, Visualisierung von Forschungslandschaften, Frage-Antwort-Systeme basierend auf Papers).
+    -   **KI-gestützte Screening-Tools:** z.B. Funktionen in systematischer Review-Software (Rayyan, Covidence) oder dedizierte Tools, die beim Priorisieren/Screenen von Abstracts helfen (basierend auf trainierten Algorithmen).
+    -   **Referenzmanagement-Software:** z.B. Zotero, Mendeley, EndNote. Beschreibe auch mögliche KI-Integrationen (sofern bis Anfang 2025 Standard), z.B. für Duplikaterkennung oder Empfehlungen.
+    -   **(Optional aber empfohlen) Python-Skripte:** Beschreibe einfache, realistische Anwendungsfälle für Forscher mit grundlegenden Python-Kenntnissen, z.B. zur Automatisierung von API-Abfragen (PubMed API, Crossref API), zur Deduplizierung von Suchergebnissen, zur einfachen Textanalyse (z.B. Frequenzanalysen von Keywords) oder zur Datenaufbereitung für Visualisierungen. Nutze bekannte Bibliotheken (z.B. `requests`, `pandas`, `nltk`, `spacy`, `bibtexparser`).
+    -   **Traditionelle Datenbanken:** Betone, dass PubMed, Scopus, Web of Science etc. weiterhin essenziell sind und wie KI-Tools die Suche *ergänzen*, aber nicht ersetzen.
+4.  **Chancen und Gefahren:** Gehe bei *jedem Schritt* oder zumindest bei jeder Phase explizit und detailliert auf die spezifischen **Chancen** (z.B. Effizienzsteigerung, breitere Abdeckung, neue Einsichten) und **Gefahren/Risiken** (z.B. Halluzinationen von LLMs, Bias in Algorithmen, Verlust kritischer Fähigkeiten, Reproduzierbarkeitsprobleme, Datenschutz, "Filterblasen"-Effekte) des jeweiligen KI-Einsatzes ein. Gib konkrete **Mitigationsstrategien** an, wie Forscher diesen Gefahren begegnen können (z.B. Verifikationsprotokolle, Nutzung mehrerer Tools, kritische manuelle Prüfung).
+5.  **Praxisnähe und Reproduzierbarkeit:** Der Workflow muss praktisch umsetzbar sein. Gib Hinweise zur Dokumentation des Vorgehens (welche Tools, Versionen, Prompts wurden verwendet?), um die Nachvollziehbarkeit zu gewährleisten.
+6.  **Keine Hypothetik:** Stelle sicher, dass alle beschriebenen Tools und Funktionalitäten auf dem real existierenden Stand von Anfang 2025 basieren. Vermeide Aussagen wie "In Zukunft wird es möglich sein..." oder "Ein hypothetisches Tool könnte...". Beziehe dich auf das, was *bekannt* ist.
+7.  **Output-Format:** Strukturiere die Antwort klar und übersichtlich, idealerweise mit nummerierten Schritten innerhalb der Phasen und klaren Unterabschnitten für Tools, Chancen, Gefahren und Mitigation pro Schritt/Phase.
+
+**Zusammenfassend:** Erzeuge den bestmöglichen, detaillierten und realistischen Workflow für KI-gestützte Literaturrecherche (Stand Anfang 2025), der Forschern als praktische Anleitung dient und dabei Chancen und Risiken klar benennt und adressiert. Der Fokus liegt auf der Integration und dem Zusammenspiel bekannter Tools und Techniken.
+
+------------------------------------------------------------------------
+
+**Warum dieser Prompt optimiert ist:**
+
+1.  **Klare Rolle und Kontext:** Definiert die Expertise der KI und den Zeitrahmen (Anfang 2025).
+2.  **Spezifische Anforderungen:** Listet detailliert auf, was der Workflow enthalten muss (Phasen, Tool-Typen, Chancen/Gefahren, Detailgrad).
+3.  **Fokus auf Realismus:** Die Einschränkung "ausschließlich bekannte Funktionalitäten" und "keine Hypothetik" ist explizit und mehrfach genannt, um unrealistische Ergebnisse zu vermeiden.
+4.  **Konkrete Tool-Beispiele:** Nennt Beispiele für jede Tool-Kategorie, um der KI eine klare Vorstellung zu geben, ohne sich auf nur ein Tool festzulegen.
+5.  **Integration von Chancen/Gefahren:** Fordert die Einbettung dieser Aspekte direkt in den Workflow, nicht nur als separaten Anhang. Verlangt auch Mitigationsstrategien.
+6.  **Betonung von Praxisnähe und Reproduzierbarkeit:** Wichtige Aspekte für wissenschaftliches Arbeiten.
+7.  **Strukturvorgabe:** Hilft der KI, einen gut organisierten Output zu liefern.
+8.  **Zielgruppenorientierung:** Stellt sicher, dass der Workflow für Forscher relevant ist.
+
+Dieser Prompt sollte eine KI dazu bringen, einen sehr umfassenden und nützlichen Workflow zu generieren, der deinen Anforderungen entspricht.
+:::
+
+## Workflow erstellen
+
+::: {.callout-note collapse="true"}
+# Verwendeter Prompt:
+
+Rolle: Du bist ein Experte für Forschungsmethodik, wissenschaftliches Arbeiten und den Einsatz von künstlicher Intelligenz in der Wissenschaft, mit einem Fokus auf den Stand der Technik Anfang 2025. Aufgabe: Erstelle einen extrem ausführlichen, schrittweisen Workflow für die Durchführung einer umfassenden Literaturrecherche in einem beliebigen Forschungsfeld unter maximaler Nutzung von KI-Tools und -Technologien, wie sie bis Anfang 2025 realistischerweise etabliert und zugänglich sind. Der Workflow muss praxisorientiert sein und sich ausschließlich auf bekannte und verfügbare Funktionalitäten stützen. Hypothetische oder zukünftige, noch nicht entwickelte Tools oder Funktionen dürfen NICHT inkludiert werden. Zielgruppe des Workflows: Wissenschaftler und Forscher (Doktoranden, Postdocs, etablierte Forscher). Anforderungen an den Workflow: Detaillierungsgrad: Jeder Schritt muss sehr detailliert beschrieben werden. Was genau ist zu tun? Welche spezifischen (Typen von) Tools werden eingesetzt? Wie interagieren die Tools? Wo ist menschliches Eingreifen und kritische Bewertung unerlässlich? Phasen: Gliedere den Workflow logisch in die typischen Phasen einer Literaturrecherche, z. B.: Phase 1: Planung & Definition (Forschungsfrage schärfen, Suchstrategie konzipieren) Phase 2: Suche & Identifikation (Papers finden) Phase 3: Screening & Auswahl (Relevanzprüfung) Phase 4: Datenextraktion & Analyse (Informationen aus Papers ziehen) Phase 5: Synthese & Berichterstattung (Ergebnisse zusammenfassen, Lücken identifizieren) Phase 6: Management & Aktualisierung (Referenzen verwalten, Recherche aktuell halten) Tool-Integration: Beschreibe bei jedem relevanten Schritt konkret, wie folgende Tool-Kategorien (basierend auf Stand Anfang 2025) eingesetzt werden können: Large Language Models (LLMs): z.B. GPT-4/Nachfolger, Claude-Modelle, Gemini/Bard für Aufgaben wie Brainstorming, Keyword-Generierung, Textzusammenfassung, Umformulierung, erste Syntheseentwürfe, Query-Optimierung. Spezifiziere die genaue Anwendung und die notwendige menschliche Verifikation. Spezialisierte KI-Such- und Analyseplattformen: z.B. Elicit, Semantic Scholar, Scite, ResearchRabbit, Connected Papers, Litmaps. Beschreibe deren spezifische Stärken (semantische Suche, Zitationsanalyse, Visualisierung von Forschungslandschaften, Frage-Antwort-Systeme basierend auf Papers). KI-gestützte Screening-Tools: z.B. Funktionen in systematischer Review-Software (Rayyan, Covidence) oder dedizierte Tools, die beim Priorisieren/Screenen von Abstracts helfen (basierend auf trainierten Algorithmen). Referenzmanagement-Software: z.B. Zotero, Mendeley, EndNote. Beschreibe auch mögliche KI-Integrationen (sofern bis Anfang 2025 Standard), z.B. für Duplikaterkennung oder Empfehlungen. (Optional aber empfohlen) Python-Skripte: Beschreibe einfache, realistische Anwendungsfälle für Forscher mit grundlegenden Python-Kenntnissen, z.B. zur Automatisierung von API-Abfragen (PubMed API, Crossref API), zur Deduplizierung von Suchergebnissen, zur einfachen Textanalyse (z.B. Frequenzanalysen von Keywords) oder zur Datenaufbereitung für Visualisierungen. Nutze bekannte Bibliotheken (z.B. requests, pandas, nltk, spacy, bibtexparser). Traditionelle Datenbanken: Betone, dass PubMed, Scopus, Web of Science etc. weiterhin essenziell sind und wie KI-Tools die Suche ergänzen, aber nicht ersetzen. Chancen und Gefahren: Gehe bei jedem Schritt oder zumindest bei jeder Phase explizit und detailliert auf die spezifischen Chancen (z.B. Effizienzsteigerung, breitere Abdeckung, neue Einsichten) und Gefahren/Risiken (z.B. Halluzinationen von LLMs, Bias in Algorithmen, Verlust kritischer Fähigkeiten, Reproduzierbarkeitsprobleme, Datenschutz, "Filterblasen"-Effekte) des jeweiligen KI-Einsatzes ein. Gib konkrete Mitigationsstrategien an, wie Forscher diesen Gefahren begegnen können (z.B. Verifikationsprotokolle, Nutzung mehrerer Tools, kritische manuelle Prüfung). Praxisnähe und Reproduzierbarkeit: Der Workflow muss praktisch umsetzbar sein. Gib Hinweise zur Dokumentation des Vorgehens (welche Tools, Versionen, Prompts wurden verwendet?), um die Nachvollziehbarkeit zu gewährleisten. Keine Hypothetik: Stelle sicher, dass alle beschriebenen Tools und Funktionalitäten auf dem real existierenden Stand von Anfang 2025 basieren. Vermeide Aussagen wie "In Zukunft wird es möglich sein..." oder "Ein hypothetisches Tool könnte...". Beziehe dich auf das, was bekannt ist. Output-Format: Strukturiere die Antwort klar und übersichtlich, idealerweise mit nummerierten Schritten innerhalb der Phasen und klaren Unterabschnitten für Tools, Chancen, Gefahren und Mitigation pro Schritt/Phase. Zusammenfassend: Erzeuge den bestmöglichen, detaillierten und realistischen Workflow für KI-gestützte Literaturrecherche (Stand Anfang 2025), der Forschern als praktische Anleitung dient und dabei Chancen und Risiken klar benennt und adressiert. Der Fokus liegt auf der Integration und dem Zusammenspiel bekannter Tools und Techniken.
+:::

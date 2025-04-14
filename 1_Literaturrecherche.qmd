@@ -1,0 +1,186 @@
+---
+title: "Literaturrecherche zur Beziehung von Effort und Performance"
+author: "Ramon Füglister"
+---
+
+## Aufgabe
+
+Gibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (Performance) und wenn ja, wie ist dieser Zusammenhang beschaffen (linear, polyonmial etc.)? Der Schwerpunkt der Recherche bilden die psychologischen Konstrukte kognitiver Effort und kognitive Leistung. Ein Ziel war es ausserdem die Suche soweit zu möglich mit KI Tools zu unterstützen und automatisieren.
+
+## Resultat
+
+Der fertige Report ist hier verfügbar.
+
+## Auswahl der Methodik für die Recherche
+
+### Menschliche Recherche nach Forschungsliteratur zum Thema "KI unterstützte Suche nach Forschungsliteratur"
+
+Die Literatursuche erfolgte zunächst unsystematisch und explorativ in einem Scoping Prozess. Um die Literaturrecherche mit KI Tools zu unterstützen, wurde zuerst Arvix und Google Scholar durchforstet nach Preprints und neuen Artikeln zum Thema KI unterstützte Suche bei der Erstellung von Literature Reviews. In diesem Scoping Prozess scheinen auch die besonderen Stärken der KI zu liegen [@gusenbauer2025]. Die Literatur lässt sich grob in die beiden Bereiche proprietäre und selbst entwicklte Tools / Methoden unterteilen. Hier erfolt eine Beschränkung auf den Einsatz von verfügbaren proprietären Tools. Als erstes werden KI-gestützte Suchmaschinen wie Elicit und Consensus erwähnt. Deren Einsatz ist möglicherweise vielversprechend, es gibt es aber noch Herausforderungen in Bezug auf Präzision und Vollständigkeit der Suchergebnisse im Vergleich zu manuellen Methoden.[@seth2025] Eine andere Familie von Tools sind die so genannten Deep Research Tools. Diese ebenfalls proprietären Tools von [Open AI](https://openai.com/index/introducing-deep-research/) und [Google](https://gemini.google/overview/deep-research/) zeigen ansatzweise agentisches Verhalten und brauchen für einen Suchvorgang häufig länger, liefern aber vollständige Texte. Durch die schnelle Weiterentwicklung und dem kürzlichen Erscheinen von Deep Research von Google liegen m.E. bislang noch keine Forschungsergebnisse vor. Jedoch scheinen beide Tools nach wie vor unter den Large Language typischen und ungelösten "Halluzinationen" zu leiden , auch wenn sie wie andere LLM Systeme Potential haben die Forschung radikal zu verändern [@khalifa2024] . In diesem Zusammenhang scheint es erwähnenswert, dass es auch vielversprechende Open Source Ansätze in diesem Bereich zu geben scheint, die möglicherweise diese Probleme verringern können, indem sie ein zusätzliches Retrieval-Augmented Generation System (RAG) verwenden [@wu_agentic_2025]. Die erste Scopingsuche war wenig erfolgreich, deshalb wurde in einem nächsten Schritt des Prozesses versucht die Suchbegriffe etwas zu verbessern, dazu wurde folgendes Prompting mit Google AI Studio verwendet um die Suche zu optimieren .
+
+::: {.callout-note collapse="true"}
+# Verwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):
+
+Ich möchte in den wichtigsten frei verfügbaren Forschungsdatenbanken suchen nach Workflows zum Thema AI unterstützte Recherche aber auch konkreten Tools wie "ChatGPT", "Open AI" "Deep Research" etc. Erstelle mir die optimale Suchparameter für Google Scholar und ähnliche Suchmaschinen als praktische Tabelle (verschiedene Alternativssuchmöglichkeiten) und anschliessend einen Überblick über die wichtigsten Datenbanken, die ich mir anschauen sollte.
+:::
+
+::: {.callout-tip collapse="true"}
+# Output von Gemini 2.5 Pro (Preview 03-25):
+
+Okay, hier sind optimierte Suchparameter und eine Übersicht über relevante Forschungsdatenbanken für Ihre Suche nach Workflows und Tools im Bereich KI-unterstützte Recherche.
+
+**1. Optimierte Suchparameter (als Tabelle)**
+
+Diese Tabelle bietet verschiedene Suchstring-Varianten, von breit bis spezifisch. Sie können diese kombinieren und anpassen. In den meisten Datenbanken funktioniert AND implizit (Leerzeichen), OR muss explizit angegeben werden, und Phrasen stehen in Anführungszeichen (").
+
+|                                               |                                                                                                                                          |                                                                                                                                                                                   |
+|------------------|-----------------------|-------------------------------|
+| Fokus / Ziel                                  | Suchbegriffe (Beispiele für Google Scholar & Co.)                                                                                        | Hinweise / Strategie                                                                                                                                                              |
+| **Breit: KI & Recherche allgemein**           | "artificial intelligence" OR AI OR "machine learning" AND "research process" OR "information retrieval" OR "literature review"           | Startpunkt, um das Feld breit zu erfassen. Kombiniert allgemeine KI-Begriffe mit Rechercheaktivitäten.                                                                            |
+| **Fokus: KI-Unterstützung im Workflow**       | "AI-assisted" OR "AI-supported" OR "AI-driven" AND "research workflow" OR "literature review workflow" OR "systematic review"            | Konzentriert sich auf die Unterstützung durch KI im Forschungsprozess, insbesondere bei etablierten Methoden wie systematischen Reviews.                                          |
+| **Fokus: Generative KI / LLMs in Recherche**  | "Generative AI" OR "Large Language Models" OR LLM AND "research" OR "academic research" OR "scientific writing" OR "knowledge discovery" | Zielt auf neuere Entwicklungen mit Modellen wie GPT ab. Verbindet diese Technologien mit Forschungsanwendungen.                                                                   |
+| **Spezifisch: ChatGPT in Recherche**          | "ChatGPT" AND ("research workflow" OR "literature review" OR "academic writing" OR "research assistant" OR "systematic review")          | Sucht gezielt nach Studien, die den Einsatz von ChatGPT im Forschungskontext untersuchen.                                                                                         |
+| **Spezifisch: OpenAI (als Technologiegeber)** | "OpenAI" AND ("research tool" OR "literature analysis" OR "scientific discovery")                                                        | Vorsicht: Kann auch Treffer zur Firma OpenAI selbst liefern. Präziser mit Fokus auf Anwendungen. Evtl. kombinieren: "OpenAI" AND "ChatGPT" AND "research"                         |
+| **Spezifisch: Andere Tools (Beispiel)**       | "Deep Research" AND "AI" AND ("research tool" OR "literature review")                                                                    | Ersetzen Sie "Deep Research" durch andere bekannte Tool-Namen. Anführungszeichen sind wichtig, um genau diesen Namen zu finden. Kontext (AI, research tool) hilft zur Abgrenzung. |
+| **Fokus: KI-Tools für Recherche**             | "AI research tool" OR "AI literature review tool" OR "AI knowledge discovery platform"                                                   | Sucht nach der Beschreibung von Werkzeugen selbst, nicht nur deren Anwendung.                                                                                                     |
+| **Kombination: Workflow & Spezifisches Tool** | ("research workflow" OR "literature review") AND ("ChatGPT" OR "Generative AI" OR "LLM")                                                 | Kombiniert den Prozess (Workflow) mit den spezifischen Technologien/Tools.                                                                                                        |
+| **Alternative Formulierungen**                | "intelligent research assistant" OR "AI co-pilot for research" OR "automated literature search"                                          | Fängt alternative Bezeichnungen und Konzepte auf.                                                                                                                                 |
+
+**Wichtige Tipps zur Suche:**
+
+-   \*\*Anführungszeichen (" "):\*\* Verwenden Sie sie für exakte Phrasen (z.B."literature review").
+
+-   **OR Operator:** Muss oft großgeschrieben werden. Dient zur Suche nach Alternativen (z.B. AI OR "artificial intelligence"). Klammern () können zur Gruppierung genutzt werden: (AI OR "artificial intelligence") AND ("literature review" OR "research workflow").
+
+-   **AND Operator:** Verbindet verschiedene Konzepte. Oft implizit (Leerzeichen genügt).
+
+-   **Platzhalter (\*):** Manche Datenbanken erlauben Wildcards (z.B. research\* findet research, researcher, researching). Mit Vorsicht verwenden, kann unspezifisch werden.
+
+-   **Filter nutzen:** Fast alle Datenbanken erlauben Filter nach Publikationsdatum (sehr wichtig bei diesem schnelllebigen Thema!), Dokumenttyp (Journal Article, Conference Paper, Review etc.), Fachgebiet etc. **Nutzen Sie insbesondere den Datumsfilter (z.B. letzte 1-3 Jahre).**
+
+-   **Variieren:** Keine einzelne Suche ist perfekt. Probieren Sie verschiedene Kombinationen aus.
+
+**2. Wichtige frei verfügbare Forschungsdatenbanken**
+
+Hier ist eine Liste der wichtigsten Datenbanken, wobei der "freie Zugang" oft bedeutet, dass die Suche und Abstracts frei sind, der Volltext aber hinter einer Paywall liegen kann (oft über Universitäts-/Institutionsbibliotheken zugänglich).
+
+|                                                   |                                                                                                                                                   |                                                                                                                |                                                                                                                                                                                                                              |
+|----------------|----------------|----------------|------------------------|
+| Datenbank                                         | Fokus / Beschreibung                                                                                                                              | Zugang                                                                                                         | Relevanz für Ihr Thema                                                                                                                                                                                                       |
+| **Google Scholar**                                | Sehr breite Abdeckung über alle Disziplinen, inklusive Preprints, Konferenzbeiträge, Thesen. Einfache Suche, gute Zitationsverfolgung.            | Frei zugänglich (Suche & Abstracts). Volltexte oft verlinkt (manchmal frei, manchmal Paywall).                 | **Sehr hoch.** Exzellenter Startpunkt, findet viel, auch Graue Literatur und Preprints. Qualitätskontrolle ist aber geringer als bei kuratierten Datenbanken.                                                                |
+| **arXiv.org**                                     | Der Preprint-Server für Physik, Mathematik, Informatik (CS), Statistik, Elektrotechnik, Quantitative Biologie, Quantitative Finanzwissenschaften. | Völlig frei zugänglich (Suche & Volltexte).                                                                    | **Sehr hoch.** Hier werden die meisten bahnbrechenden Arbeiten im Bereich KI/ML zuerst veröffentlicht (als Preprints). Unverzichtbar für aktuelle Forschung, insbesondere aus der Informatik.                                |
+| **PubMed Central (PMC)**                          | Archiv für biomedizinische und biowissenschaftliche Literatur. Enthält viele frei verfügbare Volltexte.                                           | Völlig frei zugänglich (Suche & viele Volltexte).                                                              | **Mittel bis Hoch.** Relevant, wenn Sie den Einsatz von KI-Recherchetools im Bereich Medizin/Biowissenschaften untersuchen wollen. PubMed (die Suchmaschine) ist ebenfalls frei, verlinkt aber auch auf nicht-freie Artikel. |
+| **CORE**                                          | Aggregiert Open-Access-Forschungspapiere aus Repositorien und Zeitschriften weltweit.                                                             | Frei zugänglich (Suche & Volltexte).                                                                           | **Hoch.** Gute Quelle, um gezielt nach frei verfügbaren Volltexten zu suchen.                                                                                                                                                |
+| **Dimensions**                                    | Umfassende Datenbank, die Publikationen, Grants, Patente, klinische Studien etc. verknüpft. Bietet eine großzügige kostenlose Version.            | Kostenlose Version verfügbar (Suche & Abstracts, einige Analysen). Erweiterte Funktionen sind kostenpflichtig. | **Hoch.** Bietet einen breiteren Kontext als nur Publikationen. Die kostenlose Version ist sehr leistungsfähig für die Recherche und das Finden relevanter Arbeiten.                                                         |
+| **Semantic Scholar**                              | KI-gestützte Forschungsdatenbank, fokussiert auf Informatik und Biomedizin, expandiert aber. Bietet Zusammenfassungen und Zitationskontext.       | Frei zugänglich (Suche & Abstracts).                                                                           | **Hoch.** Nutzt selbst KI zur Analyse von Papern, kann daher interessante Verbindungen aufzeigen. Gute Abdeckung im CS-Bereich.                                                                                              |
+| **DBLP**                                          | Fokussiert auf Informatik-Publikationen (Konferenzen & Journale). Gut strukturiert nach Autoren und Publikationsorten.                            | Frei zugänglich (Suche & Metadaten, oft Links zu Volltexten).                                                  | **Hoch.** Wenn der Fokus stark auf der Informatik-Perspektive liegt (Algorithmen, Systembau etc.).                                                                                                                           |
+| **ERIC (Education Resources Information Center)** | Führende Datenbank für Bildungsforschung.                                                                                                         | Frei zugänglich (Suche & viele Volltexte).                                                                     | **Mittel.** Relevant, wenn Sie den Einsatz von KI-Recherchetools im Bildungskontext oder in der pädagogischen Forschung untersuchen.                                                                                         |
+| **SSRN (Social Science Research Network)**        | Preprint-Server primär für Sozial- und Geisteswissenschaften, aber auch andere Bereiche.                                                          | Frei zugänglich (Suche & die meisten Volltexte).                                                               | **Mittel.** Kann relevant sein für Anwendungsfälle in den Sozialwissenschaften oder Diskussionen über die Auswirkungen von KI auf die Forschungspraxis in diesen Feldern.                                                    |
+
+**Wichtiger Hinweis zu "frei verfügbar":**
+
+-   Viele der "besten" kuratierten Datenbanken wie **Scopus** und **Web of Science** sind **abonnementbasiert**. Wenn Sie Zugang über eine Universität, Forschungseinrichtung oder Bibliothek haben, sollten Sie diese unbedingt ebenfalls nutzen, da sie oft eine höhere Qualitätssicherung und bessere Analysefunktionen bieten.
+
+-   **Institutionelle Repositorien:** Viele Universitäten haben eigene Online-Archive (Repositorien), in denen Publikationen ihrer Forscher frei zugänglich sind. Diese sind oft über Google Scholar auffindbar, können aber auch direkt durchsucht werden.
+
+**Empfohlene Vorgehensweise:**
+
+1.  **Starten Sie breit** mit Google Scholar und arXiv, um ein Gefühl für die aktuelle Forschung zu bekommen.
+
+2.  **Nutzen Sie spezifischere Suchbegriffe** (aus der Tabelle) in diesen und anderen Datenbanken wie Dimensions oder Semantic Scholar.
+
+3.  **Filtern Sie nach Datum** (z.B. Veröffentlichungen seit 2022 oder 2023).
+
+4.  **Prüfen Sie die Abstracts** auf Relevanz.
+
+5.  **Nutzen Sie die Zitationsverfolgung:** Schauen Sie, welche neueren Arbeiten relevante ältere Paper zitieren ("Cited by" in Google Scholar) und welche Paper in den gefundenen Artikeln zitiert werden (Referenzliste, "Snowballing").
+
+6.  **Wenn Sie Zugang haben:** Wiederholen Sie die wichtigsten Suchen in Scopus und/oder Web of Science.
+
+Viel Erfolg bei Ihrer Recherche!
+:::
+
+ToDo: Viele interessante Papers zum Einsatz von "research workflow llm" mit Python etc. muss noch aufgearbeitet werden
+https://agentlaboratory.github.io/
+
+### Recherche mit Deep Research Tools nach "KI unterstützte Suche nach Forschungsliteratur"
+
+In einem nächsten Schritt wurden die beiden Deep Research Tools verwendet um eine Literaturrecherche durchzuführen. Auch wenn sich eine Verfeinerung des Prompts angeboten hätte, ist Deep Research zurzeit noch nicht lange genug veröffentlich, dass sich mögliche optimierte Strategien bereits zeigen. Deshalb wurde der folgende Befehl verwendet, welcher teilweise den Output von oben entspricht. Verwendet wurde in [Google Gemini](https://gemini.google.com/) und [ChatGPT mit Deep Research](https://chatgpt.com/) der folgende Input (Zusätzlich wurde bei ChatGPT noch angefügt bei der Nachfrage "Den kompletten Bericht auf Deutsch mit der kompletten Literatur".):
+
+::: {.callout-note collapse="true"}
+# Verwendeter Prompt in Gemini Advanced (Deep Research mit 2.5 Pro) und ChatGPT Deep Research:
+
+Erstelle mir einen möglichst ausführlichen Forschungsbericht mit reichhaltiger Literatur zum Thema KI unterstützte Literaturrecherche in der Forschung. Ausschliesslich neuste Forschungsliteratur benutzen. Hier sind die Suchbegriffe: 1. Optimierte Suchparameter (als Tabelle)
+
+Diese Tabelle bietet verschiedene Suchstring-Varianten, von breit bis spezifisch. Sie können diese kombinieren und anpassen. In den meisten Datenbanken funktioniert AND implizit (Leerzeichen), OR muss explizit angegeben werden, und Phrasen stehen in Anführungszeichen (").
+
+Fokus / Ziel Suchbegriffe (Beispiele für Google Scholar & Co.) Hinweise / Strategie Breit: KI & Recherche allgemein "artificial intelligence" OR AI OR "machine learning" AND "research process" OR "information retrieval" OR "literature review" Startpunkt, um das Feld breit zu erfassen. Kombiniert allgemeine KI-Begriffe mit Rechercheaktivitäten. Fokus: KI-Unterstützung im Workflow "AI-assisted" OR "AI-supported" OR "AI-driven" AND "research workflow" OR "literature review workflow" OR "systematic review" Konzentriert sich auf die Unterstützung durch KI im Forschungsprozess, insbesondere bei etablierten Methoden wie systematischen Reviews. Fokus: Generative KI / LLMs in Recherche "Generative AI" OR "Large Language Models" OR LLM AND "research" OR "academic research" OR "scientific writing" OR "knowledge discovery" Zielt auf neuere Entwicklungen mit Modellen wie GPT ab. Verbindet diese Technologien mit Forschungsanwendungen. Spezifisch: ChatGPT in Recherche "ChatGPT" AND ("research workflow" OR "literature review" OR "academic writing" OR "research assistant" OR "systematic review") Sucht gezielt nach Studien, die den Einsatz von ChatGPT im Forschungskontext untersuchen. Spezifisch: OpenAI (als Technologiegeber) "OpenAI" AND ("research tool" OR "literature analysis" OR "scientific discovery") Vorsicht: Kann auch Treffer zur Firma OpenAI selbst liefern. Präziser mit Fokus auf Anwendungen. Evtl. kombinieren: "OpenAI" AND "ChatGPT" AND "research" Spezifisch: Andere Tools (Beispiel) "Deep Research" AND "AI" AND ("research tool" OR "literature review") Ersetzen Sie "Deep Research" durch andere bekannte Tool-Namen. Anführungszeichen sind wichtig, um genau diesen Namen zu finden. Kontext (AI, research tool) hilft zur Abgrenzung. Fokus: KI-Tools für Recherche "AI research tool" OR "AI literature review tool" OR "AI knowledge discovery platform" Sucht nach der Beschreibung von Werkzeugen selbst, nicht nur deren Anwendung. Kombination: Workflow & Spezifisches Tool ("research workflow" OR "literature review") AND ("ChatGPT" OR "Generative AI" OR "LLM") Kombiniert den Prozess (Workflow) mit den spezifischen Technologien/Tools. Alternative Formulierungen "intelligent research assistant" OR "AI co-pilot for research" OR "automated literature search" Fängt alternative Bezeichnungen und Konzepte auf.
+:::
+
+
+
+## Durchführung der Recherche
+
+
+## Explorative Recherche mit Deep Research Tools zur Forschungsfrage
+
+### Durchführen der Deep Research Recherche
+
+Die weitergehende Forschung zu diesen beiden Tools noch fehlt, wurde der Report ohne weitere Instruktionen sowohl für Deep Research von Open AI und Deep Research (11.04.2025) direkt verwendet: 
+
+::: {.callout-note collapse="true"}
+# Verwendeter Prompt in Gemini Advanced (Deep Research mit 2.5 Pro) und ChatGPT Deep Research:
+Führe eine allumfassende Literaturrecherche zum Zusammenhang zwischen kognitiver Anstrengung (cognitive effort) und kognitiver Performance durch. Konzentriere dich dabei primär auf psychologische Studien und Modelle, beziehe aber sämtliche relevante Erkenntnisse aus angrenzenden Disziplinen wie den Kognitions- und Neurowissenschaften, Wirtschaftswissenschaften, Biologie etc. mit ein. Priorisiere bei der Recherche Publikationen aus hochrangigen, peer-reviewten Fachzeitschriften (High-Impact Journals). Die Recherche soll folgende Kernfragen beleuchten: Linearität: Gibt es Evidenz für einen direkten, linearen Zusammenhang zwischen dem Grad der unmittelbaren Anstrengung und dem Niveau der kognitiven Leistung? Nicht-Linearität & optimale Anstrengung: Welche Belege gibt es für nicht-lineare Zusammenhänge (z.B. U-förmig, invers U-förmig)? Unter welchen Umständen führt mehr Anstrengung nicht zu besserer Leistung oder sogar zu einer Leistungsverschlechterung? Moderierende Faktoren: Welche Variablen beeinflussen die Beziehung zwischen Anstrengung und Leistung maßgeblich (z.B. Aufgabenkomplexität, Aufgabentyp, Motivation, individuelle Fähigkeiten, Müdigkeit, Alter, wahrgenommene Selbstwirksamkeit)? Theoretische Grundlagen: Welche etablierten Theorien oder Modelle werden herangezogen, um diesen Zusammenhang zu erklären? Messung: Wie werden 'momentane kognitive Anstrengung' und 'kognitive Performance' in diesen Studien typischerweise operationalisiert und gemessen? Bitte synthetisiere die wichtigsten Ergebnisse äusserst ausführlich (10000 Seiten) , identifiziere zentrale Debatten oder Forschungslücken und erstelle eine Liste der relevantesten Schlüsselpublikationen (inklusive wichtiger Reviews oder Meta-Analysen). Wenn möglich, gib die Referenzen im APA 7 Format an oder stelle die Informationen so bereit, dass sie leicht in dieses Format überführt werden können. (1) Recherchiere etablierte Definitionen und Konzepte von kognitiver Anstrengung und kognitiver Leistung in der Psychologie, den Kognitions- und Neurowissenschaften sowie sämtlichen angrenzenden relevanten Disziplinen. (2) Suche nach empirischen Studien und Meta-Analysen, die einen linearen Zusammenhang zwischen dem Ausmaß kognitiver Anstrengung und dem Niveau kognitiver Leistung untersuchen. (3) Identifiziere Forschungsarbeiten, die nicht-lineare Beziehungen (z.B. invertierte U-Form) zwischen kognitiver Anstrengung und Leistung belegen, einschließlich Studien zu Phänomenen wie "Choking under Pressure" oder Leistungsabfall bei Überanstrengung. (4) Untersuche Studien, die Moderatoren der Beziehung zwischen kognitiver Anstrengung und Leistung analysieren, darunter: (a) Aufgabenmerkmale (z.B. Komplexität, Typ, Dauer) (b) Individuelle Unterschiede (z.B. Motivation, Fähigkeiten, Alter, Ermüdung, Selbstwirksamkeit) (c) Kontextfaktoren (z.B. Stress, Anreize) (5) Recherchiere zentrale theoretische Modelle, die zur Erklärung des Zusammenhangs zwischen kognitiver Anstrengung und Leistung herangezogen werden. Analysiere ihre Grundannahmen und Vorhersagen. (6) Finde heraus, wie kognitive Anstrengung (z.B. subjektive Bewertungen, physiologische Maße wie Pupillometrie, Herzratenvariabilität, EEG/fMRT) und kognitive Leistung (z.B. Genauigkeit, Reaktionszeit) in der Forschung typischerweise operationalisiert und gemessen werden. (7) Synthetisiere die Ergebnisse der Recherche, identifiziere zentrale wissenschaftliche Debatten, widersprüchliche Befunde und offene Forschungsfragen im Themenbereich. (8) Erstelle eine Liste der Schlüsselpublikationen (einschließlich wichtiger Übersichtsarbeiten und Meta-Analysen) zum Thema und extrahiere die bibliographischen Informationen (Autoren, Jahr, Titel, Zeitschrift, DOI), um eine Formatierung im APA-7-Stil zu ermöglichen.
+:::
+
+Rückfrage von Gemini war, beantwortet wurde diese mit "Den besten und umfangreichsten Report, den du anfertigen kannst":
+
+::: {.callout-tip collapse="true"}
+# ChatGPT Deep Research:
+Vielen Dank für den umfassenden Auftrag! Damit ich mit der Recherche beginnen kann:
+
+Gibt es einen bestimmten zeitlichen Rahmen, den du bevorzugst (z.B. Publikationen der letzten 10 oder 20 Jahre)?
+
+Sollen auch deutschsprachige Studien einbezogen werden oder ausschließlich englischsprachige Literatur?
+
+Gibt es spezielle Datenbanken oder Zeitschriften, die du bevorzugst (z.B. Nature Neuroscience, Psychological Review, Science, etc.)?
+
+Möchtest du die Ergebnisse als Fließtext (z.B. für ein Paper) oder auch in Tabellenform, um Vergleichbarkeit zu erleichtern?
+
+Sobald ich das weiß, starte ich direkt mit der Recherche!
+:::
+
+
+
+Anschliessend wurden beide Reports exportiert und abgespeichert. (14.04.2025): (Deep_Research_ChatGPT_Output)
+
+## Aufbereitung des Textes und Konvertierung der Referenzen in APA7
+
+Der entstanden ChatGPT Deep Research Text Output (Deep_Research_ChatGPT_Output_2) wurde in Gemini eingefügt und der folgende Prompt ausgeführt: 
+
+
+::: {.callout-note collapse="true"}
+# Verwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):
+«Konvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und ein passendes Literaturverzeichnis:»
+Das entstandene Dokument wurde erneut abgespeichert. (Deep_Research_ChatGPT_Output_2).
+:::
+
+
+
+
+
+
+
+## Recherche mit ChatGPT oder anderen Tools unter Berücksichtigung von passender Forschungsmethodik
+Todo: https://agentlaboratory.github.io/ und ähnliche Papers
+
+
+## Literatur
+
+
+
+
+
+
+
+
+

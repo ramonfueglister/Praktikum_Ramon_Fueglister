@@ -1,0 +1,22 @@
+project:
+  type: book
+
+book:
+  title: "Praktikum Ramon Füglister"
+  author: "Ramon Füglister"
+  date: "14.4.2025"
+  chapters:
+    - index.qmd
+    - 1_Literaturrecherche.qmd
+    - references.qmd
+
+
+bibliography: references.bib
+csl: apa.csl
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
