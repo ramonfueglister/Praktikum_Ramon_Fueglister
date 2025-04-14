@@ -125,7 +125,7 @@ Fokus / Ziel Suchbegriffe (Beispiele für Google Scholar & Co.) Hinweise / Strat
 
 ### Durchführen der Deep Research Recherche
 
-Die weitergehende Forschung zu diesen beiden Tools noch fehlt, wurde der Report ohne weitere Instruktionen sowohl für Deep Research von Open AI und Deep Research (11.04.2025) direkt verwendet: 
+Die weitergehende Forschung zu diesen beiden Tools noch fehlt, wurde der Report ohne weitere Instruktionen sowohl für Deep Research von Open AI und Deep Research (14.04.2025) direkt verwendet: 
 
 ::: {.callout-note collapse="true"}
 # Verwendeter Prompt in Gemini Advanced (Deep Research mit 2.5 Pro) und ChatGPT Deep Research:
@@ -151,7 +151,7 @@ Sobald ich das weiß, starte ich direkt mit der Recherche!
 
 
 
-Anschliessend wurden beide Reports exportiert und abgespeichert. (14.04.2025): (Deep_Research_ChatGPT_Output)
+Anschliessend wurden beide Reports exportiert und abgespeichert. (14.04.2025): (Deep_Research_ChatGPT_Output..pdf)
 
 ## Aufbereitung des Textes und Konvertierung der Referenzen in APA7
 
