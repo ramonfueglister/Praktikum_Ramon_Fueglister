@@ -39,28 +39,28 @@
     "href": "1_Literaturrecherche.html#aufbereitung-des-textes-und-konvertierung-der-referenzen-in-apa7",
     "title": "1  Literaturrecherche zur Beziehung von Effort und Performance",
     "section": "1.6 Aufbereitung des Textes und Konvertierung der Referenzen in APA7",
-    "text": "1.6 Aufbereitung des Textes und Konvertierung der Referenzen in APA7\nDer entstanden ChatGPT Deep Research Text Output (Deep_Research_ChatGPT_Output_2) wurde in Gemini eingefügt und der folgende Prompt ausgeführt: ::: {.callout-note collapse=“true”} # Verwendeter Prompt in Gemini 2.5 Pro (Preview 03-25): «Konvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und ein passendes Literaturverzeichnis:» Das entstandene Dokument wurde erneut abgespeichert. (Deep_Research_ChatGPT_Output_2). :::"
+    "text": "1.6 Aufbereitung des Textes und Konvertierung der Referenzen in APA7\nDer entstanden ChatGPT Deep Research Text Output (Deep_Research_ChatGPT_Output_2) wurde in Gemini eingefügt und der folgende Prompt ausgeführt:\n\n\n\n\n\n\nVerwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):\n\n\n\n\n\n«Konvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und ein passendes Literaturverzeichnis:» .\n\n\n\nDas entstandene Dokument wurde erneut abgespeichert. (Deep_Research_ChatGPT_Output_2) 📄 Deep_Research_ChatGPT_Output_2"
   },
   {
     "objectID": "1_Literaturrecherche.html#review-prozess",
     "href": "1_Literaturrecherche.html#review-prozess",
     "title": "1  Literaturrecherche zur Beziehung von Effort und Performance",
     "section": "1.7 Review Prozess",
-    "text": "1.7 Review Prozess\nTodo: https://agentlaboratory.github.io/ und ähnliche Papers\nRespond in the following format: THOUGHT:  REVIEW JSON: json &lt;JSON&gt; In , first briefly discuss your intuitions and reasoning for the evaluation. Detail your high-level arguments, necessary choices and desired outcomes of the review. Do not make generic comments here, but be specific to your current paper. Treat this as the note-taking phase of your review. In , provide the review in JSON format with the following fields in the order:- “Summary”: A summary of the paper content and its contributions.- “Strengths”: A list of strengths of the paper.- “Weaknesses”: A list of weaknesses of the paper.- “Originality”: A rating from 1 to 4 (low, medium, high, very high).- “Quality”: A rating from 1 to 4 (low, medium, high, very high).- “Clarity”: A rating from 1 to 4 (low, medium, high, very high).- “Significance”: A rating from 1 to 4 (low, medium, high, very high).- “Questions”: A set of clarifying questions to be answered by the paper authors.- “Limitations”: A set of limitations and potential negative societal impacts of the work.- “Ethical Concerns”: A boolean value indicating whether there are ethical concerns.- “Soundness”: A rating from 1 to 4 (poor, fair, good, excellent).- “Presentation”: A rating from 1 to 4 (poor, fair, good, excellent).- “Contribution”: A rating from 1 to 4 (poor, fair, good, excellent).- “Overall”: A rating from 1 to 10 (very strong reject to award quality).- “Confidence”: A rating from 1 to 5 (low, medium, high, very high, absolute).- “Decision”: A decision that has to be one of the following: Accept, Reject. For the “Decision” field, don’t use Weak Accept, Borderline Accept, Borderline Reject, or Strong Reject. Instead, only use Accept or Reject. This JSON will be automatically parsed, so ensure the format is precise."
+    "text": "1.7 Review Prozess\nTodo: https://agentlaboratory.github.io/ und ähnliche Papers\n\n\n\n\n\n\nVerwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):\n\n\n\n\n\nRespond in the following format: THOUGHT:  REVIEW JSON: json &lt;JSON&gt; In , first briefly discuss your intuitions and reasoning for the evaluation. Detail your high-level arguments, necessary choices and desired outcomes of the review. Do not make generic comments here, but be specific to your current paper. Treat this as the note-taking phase of your review. In , provide the review in JSON format with the following fields in the order:- “Summary”: A summary of the paper content and its contributions.- “Strengths”: A list of strengths of the paper.- “Weaknesses”: A list of weaknesses of the paper.- “Originality”: A rating from 1 to 4 (low, medium, high, very high).- “Quality”: A rating from 1 to 4 (low, medium, high, very high).- “Clarity”: A rating from 1 to 4 (low, medium, high, very high).- “Significance”: A rating from 1 to 4 (low, medium, high, very high).- “Questions”: A set of clarifying questions to be answered by the paper authors.- “Limitations”: A set of limitations and potential negative societal impacts of the work.- “Ethical Concerns”: A boolean value indicating whether there are ethical concerns.- “Soundness”: A rating from 1 to 4 (poor, fair, good, excellent).- “Presentation”: A rating from 1 to 4 (poor, fair, good, excellent).- “Contribution”: A rating from 1 to 4 (poor, fair, good, excellent).- “Overall”: A rating from 1 to 10 (very strong reject to award quality).- “Confidence”: A rating from 1 to 5 (low, medium, high, very high, absolute).- “Decision”: A decision that has to be one of the following: Accept, Reject. For the “Decision” field, don’t use Weak Accept, Borderline Accept, Borderline Reject, or Strong Reject. Instead, only use Accept or Reject. This JSON will be automatically parsed, so ensure the format is precise."
   },
   {
     "objectID": "1_Literaturrecherche.html#recherche-mit-chatgpt-oder-anderen-tools-unter-berücksichtigung-von-passender-forschungsmethodik",
     "href": "1_Literaturrecherche.html#recherche-mit-chatgpt-oder-anderen-tools-unter-berücksichtigung-von-passender-forschungsmethodik",
     "title": "1  Literaturrecherche zur Beziehung von Effort und Performance",
-    "section": "1.8 Recherche mit ChatGPT oder anderen Tools unter Berücksichtigung von passender Forschungsmethodik",
-    "text": "1.8 Recherche mit ChatGPT oder anderen Tools unter Berücksichtigung von passender Forschungsmethodik"
+    "section": "1.10 Recherche mit ChatGPT oder anderen Tools unter Berücksichtigung von passender Forschungsmethodik",
+    "text": "1.10 Recherche mit ChatGPT oder anderen Tools unter Berücksichtigung von passender Forschungsmethodik\nto be done"
   },
   {
     "objectID": "1_Literaturrecherche.html#literatur",
     "href": "1_Literaturrecherche.html#literatur",
     "title": "1  Literaturrecherche zur Beziehung von Effort und Performance",
-    "section": "1.9 Literatur",
-    "text": "1.9 Literatur\n\n\n\n\nGusenbauer, M., & Gauster, S. P. (2025). How to search for literature in systematic reviews and meta-analyses: A comprehensive step-by-step guide. Technological Forecasting and Social Change, 212, 123833. https://doi.org/10.1016/j.techfore.2024.123833\n\n\nKhalifa, M., & Albadawy, M. (2024). Using artificial intelligence in academic writing and research: An essential productivity tool. Computer Methods and Programs in Biomedicine Update, 5, 100145. https://doi.org/10.1016/j.cmpbup.2024.100145\n\n\nSeth, I., Lim, B., Xie, Y., Ross, R. J., Cuomo, R., & Rozen, W. M. (2025). Artificial intelligence versus human researcher performance for systematic literature searches: A study focusing on the surgical management of base of thumb arthritis. Plastic and Aesthetic Research. https://doi.org/10.20517/2347-9264.2024.99\n\n\nWu, J., Zhu, J., & Liu, Y. (2025). Agentic reasoning: Reasoning LLMs with tools for the deep research. arXiv. https://doi.org/10.48550/ARXIV.2502.04644"
+    "section": "1.11 Literatur",
+    "text": "1.11 Literatur\n\n\n\n\nGusenbauer, M., & Gauster, S. P. (2025). How to search for literature in systematic reviews and meta-analyses: A comprehensive step-by-step guide. Technological Forecasting and Social Change, 212, 123833. https://doi.org/10.1016/j.techfore.2024.123833\n\n\nKhalifa, M., & Albadawy, M. (2024). Using artificial intelligence in academic writing and research: An essential productivity tool. Computer Methods and Programs in Biomedicine Update, 5, 100145. https://doi.org/10.1016/j.cmpbup.2024.100145\n\n\nSeth, I., Lim, B., Xie, Y., Ross, R. J., Cuomo, R., & Rozen, W. M. (2025). Artificial intelligence versus human researcher performance for systematic literature searches: A study focusing on the surgical management of base of thumb arthritis. Plastic and Aesthetic Research. https://doi.org/10.20517/2347-9264.2024.99\n\n\nWu, J., Zhu, J., & Liu, Y. (2025). Agentic reasoning: Reasoning LLMs with tools for the deep research. arXiv. https://doi.org/10.48550/ARXIV.2502.04644"
   },
   {
     "objectID": "references.html",
@@ -75,5 +75,26 @@
     "title": "Praktikum Ramon Füglister",
     "section": "",
     "text": "Preface\nDies ist die Dokumentation von Ramon Füglister zum Praktikum an der Fernuni Schweiz."
+  },
+  {
+    "objectID": "1_Literaturrecherche.html#aufbereitung-des-textes-und-konvertierung-der-referenzen-in-apa7-1",
+    "href": "1_Literaturrecherche.html#aufbereitung-des-textes-und-konvertierung-der-referenzen-in-apa7-1",
+    "title": "1  Literaturrecherche zur Beziehung von Effort und Performance",
+    "section": "1.7 Aufbereitung des Textes und Konvertierung der Referenzen in APA7",
+    "text": "1.7 Aufbereitung des Textes und Konvertierung der Referenzen in APA7"
+  },
+  {
+    "objectID": "1_Literaturrecherche.html#mögliches-kausales-modell-zeichnen-aufgrund-der-forschungsliteratur",
+    "href": "1_Literaturrecherche.html#mögliches-kausales-modell-zeichnen-aufgrund-der-forschungsliteratur",
+    "title": "1  Literaturrecherche zur Beziehung von Effort und Performance",
+    "section": "1.8 Mögliches kausales Modell zeichnen aufgrund der Forschungsliteratur",
+    "text": "1.8 Mögliches kausales Modell zeichnen aufgrund der Forschungsliteratur\nToDo:"
+  },
+  {
+    "objectID": "1_Literaturrecherche.html#reviewer-prozess",
+    "href": "1_Literaturrecherche.html#reviewer-prozess",
+    "title": "1  Literaturrecherche zur Beziehung von Effort und Performance",
+    "section": "1.9 Reviewer Prozess",
+    "text": "1.9 Reviewer Prozess\nTodo: https://agentlaboratory.github.io/ und ähnliche Papers\n\n\n\n\n\n\nVerwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):\n\n\n\n\n\nRespond in the following format: THOUGHT:  REVIEW JSON: json &lt;JSON&gt; In , first briefly discuss your intuitions and reasoning for the evaluation. Detail your high-level arguments, necessary choices and desired outcomes of the review. Do not make generic comments here, but be specific to your current paper. Treat this as the note-taking phase of your review. In , provide the review in JSON format with the following fields in the order:- “Summary”: A summary of the paper content and its contributions.- “Strengths”: A list of strengths of the paper.- “Weaknesses”: A list of weaknesses of the paper.- “Originality”: A rating from 1 to 4 (low, medium, high, very high).- “Quality”: A rating from 1 to 4 (low, medium, high, very high).- “Clarity”: A rating from 1 to 4 (low, medium, high, very high).- “Significance”: A rating from 1 to 4 (low, medium, high, very high).- “Questions”: A set of clarifying questions to be answered by the paper authors.- “Limitations”: A set of limitations and potential negative societal impacts of the work.- “Ethical Concerns”: A boolean value indicating whether there are ethical concerns.- “Soundness”: A rating from 1 to 4 (poor, fair, good, excellent).- “Presentation”: A rating from 1 to 4 (poor, fair, good, excellent).- “Contribution”: A rating from 1 to 4 (poor, fair, good, excellent).- “Overall”: A rating from 1 to 10 (very strong reject to award quality).- “Confidence”: A rating from 1 to 5 (low, medium, high, very high, absolute).- “Decision”: A decision that has to be one of the following: Accept, Reject. For the “Decision” field, don’t use Weak Accept, Borderline Accept, Borderline Reject, or Strong Reject. Instead, only use Accept or Reject. This JSON will be automatically parsed, so ensure the format is precise."
   }
 ]
