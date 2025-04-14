@@ -5,7 +5,7 @@ author: "Ramon Füglister"
 
 ## Aufgabe
 
-Gibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (Performance) und wenn ja, wie ist dieser Zusammenhang beschaffen (linear, polyonmial etc.)? Der Schwerpunkt der Recherche bildet also der Zusammenhang der psychologischen Konstrukte kognitiver Effort und kognitive Leistung. Ein weiteres Ziel war es ausserdem die Suche soweit zu möglich mit KI Tools zu unterstützen und automatisieren.
+Gibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (Performance) und wenn ja, wie ist dieser Zusammenhang beschaffen (linear, polyonmial etc.)? Der Schwerpunkt der Recherche bildet also der Zusammenhang der psychologischen Konstrukte kognitiver Effort und kognitive Leistung. Ein weiteres Ziel war es ausserdem die Literatursuche soweit zu möglich mit KI Tools zu unterstützen und automatisieren. Als Idee dient dazu das Paper von [Agent Laboratory](https://agentlaboratory.github.io/).
 
 ## Resultat
 
@@ -117,8 +117,6 @@ Diese Tabelle bietet verschiedene Suchstring-Varianten, von breit bis spezifisch
 Fokus / Ziel Suchbegriffe (Beispiele für Google Scholar & Co.) Hinweise / Strategie Breit: KI & Recherche allgemein "artificial intelligence" OR AI OR "machine learning" AND "research process" OR "information retrieval" OR "literature review" Startpunkt, um das Feld breit zu erfassen. Kombiniert allgemeine KI-Begriffe mit Rechercheaktivitäten. Fokus: KI-Unterstützung im Workflow "AI-assisted" OR "AI-supported" OR "AI-driven" AND "research workflow" OR "literature review workflow" OR "systematic review" Konzentriert sich auf die Unterstützung durch KI im Forschungsprozess, insbesondere bei etablierten Methoden wie systematischen Reviews. Fokus: Generative KI / LLMs in Recherche "Generative AI" OR "Large Language Models" OR LLM AND "research" OR "academic research" OR "scientific writing" OR "knowledge discovery" Zielt auf neuere Entwicklungen mit Modellen wie GPT ab. Verbindet diese Technologien mit Forschungsanwendungen. Spezifisch: ChatGPT in Recherche "ChatGPT" AND ("research workflow" OR "literature review" OR "academic writing" OR "research assistant" OR "systematic review") Sucht gezielt nach Studien, die den Einsatz von ChatGPT im Forschungskontext untersuchen. Spezifisch: OpenAI (als Technologiegeber) "OpenAI" AND ("research tool" OR "literature analysis" OR "scientific discovery") Vorsicht: Kann auch Treffer zur Firma OpenAI selbst liefern. Präziser mit Fokus auf Anwendungen. Evtl. kombinieren: "OpenAI" AND "ChatGPT" AND "research" Spezifisch: Andere Tools (Beispiel) "Deep Research" AND "AI" AND ("research tool" OR "literature review") Ersetzen Sie "Deep Research" durch andere bekannte Tool-Namen. Anführungszeichen sind wichtig, um genau diesen Namen zu finden. Kontext (AI, research tool) hilft zur Abgrenzung. Fokus: KI-Tools für Recherche "AI research tool" OR "AI literature review tool" OR "AI knowledge discovery platform" Sucht nach der Beschreibung von Werkzeugen selbst, nicht nur deren Anwendung. Kombination: Workflow & Spezifisches Tool ("research workflow" OR "literature review") AND ("ChatGPT" OR "Generative AI" OR "LLM") Kombiniert den Prozess (Workflow) mit den spezifischen Technologien/Tools. Alternative Formulierungen "intelligent research assistant" OR "AI co-pilot for research" OR "automated literature search" Fängt alternative Bezeichnungen und Konzepte auf.
 :::
 
-
-
 ## Durchführung der Recherche
 
 
@@ -132,8 +130,7 @@ Die weitergehende Forschung zu diesen beiden Tools noch fehlt, wurde der Report 
 # Verwendeter Prompt in Gemini Advanced (Deep Research mit 2.5 Pro) und ChatGPT Deep Research:
 Führe eine allumfassende Literaturrecherche zum Zusammenhang zwischen kognitiver Anstrengung (cognitive effort) und kognitiver Performance durch. Konzentriere dich dabei primär auf psychologische Studien und Modelle, beziehe aber sämtliche relevante Erkenntnisse aus angrenzenden Disziplinen wie den Kognitions- und Neurowissenschaften, Wirtschaftswissenschaften, Biologie etc. mit ein. Priorisiere bei der Recherche Publikationen aus hochrangigen, peer-reviewten Fachzeitschriften (High-Impact Journals). Die Recherche soll folgende Kernfragen beleuchten: Linearität: Gibt es Evidenz für einen direkten, linearen Zusammenhang zwischen dem Grad der unmittelbaren Anstrengung und dem Niveau der kognitiven Leistung? Nicht-Linearität & optimale Anstrengung: Welche Belege gibt es für nicht-lineare Zusammenhänge (z.B. U-förmig, invers U-förmig)? Unter welchen Umständen führt mehr Anstrengung nicht zu besserer Leistung oder sogar zu einer Leistungsverschlechterung? Moderierende Faktoren: Welche Variablen beeinflussen die Beziehung zwischen Anstrengung und Leistung maßgeblich (z.B. Aufgabenkomplexität, Aufgabentyp, Motivation, individuelle Fähigkeiten, Müdigkeit, Alter, wahrgenommene Selbstwirksamkeit)? Theoretische Grundlagen: Welche etablierten Theorien oder Modelle werden herangezogen, um diesen Zusammenhang zu erklären? Messung: Wie werden 'momentane kognitive Anstrengung' und 'kognitive Performance' in diesen Studien typischerweise operationalisiert und gemessen? Bitte synthetisiere die wichtigsten Ergebnisse äusserst ausführlich (10000 Seiten) , identifiziere zentrale Debatten oder Forschungslücken und erstelle eine Liste der relevantesten Schlüsselpublikationen (inklusive wichtiger Reviews oder Meta-Analysen). Wenn möglich, gib die Referenzen im APA 7 Format an oder stelle die Informationen so bereit, dass sie leicht in dieses Format überführt werden können. (1) Recherchiere etablierte Definitionen und Konzepte von kognitiver Anstrengung und kognitiver Leistung in der Psychologie, den Kognitions- und Neurowissenschaften sowie sämtlichen angrenzenden relevanten Disziplinen. (2) Suche nach empirischen Studien und Meta-Analysen, die einen linearen Zusammenhang zwischen dem Ausmaß kognitiver Anstrengung und dem Niveau kognitiver Leistung untersuchen. (3) Identifiziere Forschungsarbeiten, die nicht-lineare Beziehungen (z.B. invertierte U-Form) zwischen kognitiver Anstrengung und Leistung belegen, einschließlich Studien zu Phänomenen wie "Choking under Pressure" oder Leistungsabfall bei Überanstrengung. (4) Untersuche Studien, die Moderatoren der Beziehung zwischen kognitiver Anstrengung und Leistung analysieren, darunter: (a) Aufgabenmerkmale (z.B. Komplexität, Typ, Dauer) (b) Individuelle Unterschiede (z.B. Motivation, Fähigkeiten, Alter, Ermüdung, Selbstwirksamkeit) (c) Kontextfaktoren (z.B. Stress, Anreize) (5) Recherchiere zentrale theoretische Modelle, die zur Erklärung des Zusammenhangs zwischen kognitiver Anstrengung und Leistung herangezogen werden. Analysiere ihre Grundannahmen und Vorhersagen. (6) Finde heraus, wie kognitive Anstrengung (z.B. subjektive Bewertungen, physiologische Maße wie Pupillometrie, Herzratenvariabilität, EEG/fMRT) und kognitive Leistung (z.B. Genauigkeit, Reaktionszeit) in der Forschung typischerweise operationalisiert und gemessen werden. (7) Synthetisiere die Ergebnisse der Recherche, identifiziere zentrale wissenschaftliche Debatten, widersprüchliche Befunde und offene Forschungsfragen im Themenbereich. (8) Erstelle eine Liste der Schlüsselpublikationen (einschließlich wichtiger Übersichtsarbeiten und Meta-Analysen) zum Thema und extrahiere die bibliographischen Informationen (Autoren, Jahr, Titel, Zeitschrift, DOI), um eine Formatierung im APA-7-Stil zu ermöglichen.
 :::
-
-Rückfrage von Gemini war, beantwortet wurde diese mit "Den besten und umfangreichsten Report, den du anfertigen kannst":
+Auf die untenstehende Rückfrage von ChatGPT wurde mit "Den besten und umfangreichsten Report, den du anfertigen kannst" geantwortet:
 
 ::: {.callout-tip collapse="true"}
 # ChatGPT Deep Research:
@@ -150,9 +147,7 @@ Möchtest du die Ergebnisse als Fließtext (z.B. für ein Paper) oder auch in Ta
 Sobald ich das weiß, starte ich direkt mit der Recherche!
 :::
 
-
-
-Anschliessend wurden beide Reports exportiert und abgespeichert. (14.04.2025): (Deep_Research_ChatGPT_Output..pdf)
+Anschliessend wurden beide Reports exportiert und abgespeichert, einmal für (Deep_Research_ChatGPT_Output..pdf) (14.04.2025)
 
 ## Aufbereitung des Textes und Konvertierung der Referenzen in APA7
 
@@ -173,7 +168,9 @@ to be done (in Python mit API Google Gemini, evtl. Papers suchen)
 ## Menschliche Endkontrolle
 to be done 
 
-## Mögliches kausales Modell zeichnen aufgrund der Forschungsliteratur
+
+
+### Mögliches kausales Modell zeichnen aufgrund der Forschungsliteratur
 to be done (evtl. Papers suchen)
 
 ## Reviewer Prozess
@@ -185,6 +182,9 @@ Respond in the following format: THOUGHT: <THOUGHT> REVIEW JSON: ```json <JSON> 
 :::
 
 ## Recherche mit ChatGPT oder anderen Tools unter Berücksichtigung von passender Forschungsmethodik
+to be done
+
+## Resultate des Literature Reviews
 to be done
 
 ## Literatur
