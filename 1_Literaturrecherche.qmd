@@ -9,14 +9,13 @@ Gibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (P
 
 ## Resultat
 
-Der provisorische Report ist 👉 [📄 Hier](mein-dokument.docx){.btn .btn-primary}
- verfügbar.
+Der provisorische Report ist  [📄 Hier](mein-dokument.docx){.btn .btn-primary} verfügbar.
 
 ## Auswahl der Methodik für die Recherche
 
 ### Menschliche Recherche nach Forschungsliteratur zum Thema "KI unterstützte Suche nach Forschungsliteratur"
 
-Die Literatursuche erfolgte zunächst unsystematisch und explorativ in einem Scoping Prozess. Um die Literaturrecherche mit KI Tools zu unterstützen, wurde zuerst Arvix und Google Scholar durchforstet nach Preprints und neuen Artikeln zum Thema KI unterstützte Suche bei der Erstellung von Literature Reviews. In diesem Scoping Prozess scheinen auch die besonderen Stärken der KI zu liegen [@gusenbauer2025]. Die Literatur lässt sich grob in die beiden Bereiche proprietäre und selbst entwicklte Tools / Methoden unterteilen. Hier erfolt eine Beschränkung auf den Einsatz von verfügbaren proprietären Tools. Als erstes werden KI-gestützte Suchmaschinen wie Elicit und Consensus erwähnt. Deren Einsatz ist möglicherweise vielversprechend, es gibt es aber noch Herausforderungen in Bezug auf Präzision und Vollständigkeit der Suchergebnisse im Vergleich zu manuellen Methoden.[@seth2025] Eine andere Familie von Tools sind die so genannten Deep Research Tools. Diese ebenfalls proprietären Tools von [Open AI](https://openai.com/index/introducing-deep-research/) und [Google](https://gemini.google/overview/deep-research/) zeigen ansatzweise agentisches Verhalten und brauchen für einen Suchvorgang häufig länger, liefern aber vollständige Texte. Durch die schnelle Weiterentwicklung und dem kürzlichen Erscheinen von Deep Research von Google liegen m.E. bislang noch keine Forschungsergebnisse vor. Jedoch scheinen beide Tools nach wie vor unter den Large Language typischen und ungelösten "Halluzinationen" zu leiden , auch wenn sie wie andere LLM Systeme Potential haben die Forschung radikal zu verändern [@khalifa2024] . In diesem Zusammenhang scheint es erwähnenswert, dass es auch vielversprechende Open Source Ansätze in diesem Bereich zu geben scheint, die möglicherweise diese Probleme verringern können, indem sie ein zusätzliches Retrieval-Augmented Generation System (RAG) verwenden [@wu_agentic_2025]. Die erste Scopingsuche war wenig erfolgreich, deshalb wurde in einem nächsten Schritt des Prozesses versucht die Suchbegriffe etwas zu verbessern, dazu wurde folgendes Prompting mit Google AI Studio verwendet um die Suche zu optimieren .
+Die Literatursuche erfolgte zunächst unsystematisch und explorativ in einem Scoping Prozess. Um die Literaturrecherche mit KI Tools zu unterstützen, wurde zuerst Arvix und Google Scholar durchforstet nach Preprints und neuen Artikeln zum Thema KI unterstützte Suche bei der Erstellung von Literature Reviews. In diesem Scoping Prozess scheinen auch die besonderen Stärken der KI zu liegen [@gusenbauer2025]. Die Literatur lässt sich grob in die beiden Bereiche proprietäre und selbst entwicklte Tools / Methoden unterteilen. Hier erfolgt eine Beschränkung auf den Einsatz von verfügbaren proprietären Tools. Als erstes werden KI-gestützte Suchmaschinen wie Elicit und Consensus erwähnt. Deren Einsatz ist möglicherweise vielversprechend, es gibt es aber noch einige Herausforderungen in Bezug auf Präzision und Vollständigkeit der Suchergebnisse im Vergleich zu manuellen Methoden.[@seth2025] Eine andere Familie von Tools sind die so genannten Deep Research Tools. Diese ebenfalls proprietären Tools von [Open AI](https://openai.com/index/introducing-deep-research/) und [Google](https://gemini.google/overview/deep-research/) zeigen ansatzweise agentisches Verhalten und brauchen für einen Suchvorgang häufig länger, liefern aber nicht bloss eine Liste von SUchergebnissen, sondern vollständige Texte respektive Reports. Durch die schnelle Weiterentwicklung und dem eben kürzlich erfolgten Erscheinen von Gemini Deep Research von Google liegen bislang noch kaum Forschungsergebnisse vor. Jedoch scheinen beide Tools nach wie vor unter den Large Language Models (LLM) typischen und ungelösten "Halluzinationen" zu leiden , auch wenn sie wie andere LLM Systeme Potential haben die Forschung radikal zu verändern [@khalifa2024] . In diesem Zusammenhang scheint es auch erwähnenswert, dass es ebenfalls vielversprechende Open Source Ansätze in diesem Bereich zu geben scheint, die möglicherweise diese Probleme verringern können, indem sie ein zusätzliches Retrieval-Augmented Generation System (RAG) verwenden [@wu_agentic_2025]. Die erste Scopingsuche war wenig erfolgreich, deshalb wurde in einem nächsten Schritt des Prozesses versucht die Suchbegriffe etwas zu verbessern, dazu wurde folgendes Prompting mit Google AI Studio verwendet um die Suchparameter zu optimieren.
 
 ::: {.callout-note collapse="true"}
 # Verwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):
@@ -100,12 +99,12 @@ Hier ist eine Liste der wichtigsten Datenbanken, wobei der "freie Zugang" oft be
 Viel Erfolg bei Ihrer Recherche!
 :::
 
-ToDo: Viele interessante Papers zum Einsatz von "research workflow llm" mit Python etc. muss noch aufgearbeitet werden
-https://agentlaboratory.github.io/
+Diese Suchbegriffe, brachten viele interessante Papers zum Einsatz von "research workflow llm" mit Python etc. hervor, z.B. 
+https://agentlaboratory.github.io/ etc.
 
 ### Recherche mit Deep Research Tools nach "KI unterstützte Suche nach Forschungsliteratur"
 
-In einem nächsten Schritt wurden die beiden Deep Research Tools verwendet um eine Literaturrecherche durchzuführen. Auch wenn sich eine Verfeinerung des Prompts angeboten hätte, ist Deep Research zurzeit noch nicht lange genug veröffentlich, dass sich mögliche optimierte Strategien bereits zeigen. Deshalb wurde der folgende Befehl verwendet, welcher teilweise den Output von oben entspricht. Verwendet wurde in [Google Gemini](https://gemini.google.com/) und [ChatGPT mit Deep Research](https://chatgpt.com/) der folgende Input (Zusätzlich wurde bei ChatGPT noch angefügt bei der Nachfrage "Den kompletten Bericht auf Deutsch mit der kompletten Literatur".):
+In einem nächsten Schritt wurden die beiden Deep Research Tools verwendet um eine Literaturrecherche durchzuführen. Auch wenn sich eine Verfeinerung des Prompts angeboten hätte, ist Deep Research zurzeit noch nicht lange genug veröffentlich, dass sich bereits mögliche optimierte Strategien bereits zeigen. Deshalb wurde der folgende Befehl verwendet, welcher teilweise den Output von oben entspricht. Verwendet wurde in [Google Gemini](https://gemini.google.com/) und [ChatGPT mit Deep Research](https://chatgpt.com/) der folgende Input (Zusätzlich wurde bei ChatGPT noch angefügt bei der Nachfrage "Den kompletten Bericht auf Deutsch mit der kompletten Literatur".):
 
 ::: {.callout-note collapse="true"}
 # Verwendeter Prompt in Gemini Advanced (Deep Research mit 2.5 Pro) und ChatGPT Deep Research:
@@ -117,12 +116,11 @@ Diese Tabelle bietet verschiedene Suchstring-Varianten, von breit bis spezifisch
 Fokus / Ziel Suchbegriffe (Beispiele für Google Scholar & Co.) Hinweise / Strategie Breit: KI & Recherche allgemein "artificial intelligence" OR AI OR "machine learning" AND "research process" OR "information retrieval" OR "literature review" Startpunkt, um das Feld breit zu erfassen. Kombiniert allgemeine KI-Begriffe mit Rechercheaktivitäten. Fokus: KI-Unterstützung im Workflow "AI-assisted" OR "AI-supported" OR "AI-driven" AND "research workflow" OR "literature review workflow" OR "systematic review" Konzentriert sich auf die Unterstützung durch KI im Forschungsprozess, insbesondere bei etablierten Methoden wie systematischen Reviews. Fokus: Generative KI / LLMs in Recherche "Generative AI" OR "Large Language Models" OR LLM AND "research" OR "academic research" OR "scientific writing" OR "knowledge discovery" Zielt auf neuere Entwicklungen mit Modellen wie GPT ab. Verbindet diese Technologien mit Forschungsanwendungen. Spezifisch: ChatGPT in Recherche "ChatGPT" AND ("research workflow" OR "literature review" OR "academic writing" OR "research assistant" OR "systematic review") Sucht gezielt nach Studien, die den Einsatz von ChatGPT im Forschungskontext untersuchen. Spezifisch: OpenAI (als Technologiegeber) "OpenAI" AND ("research tool" OR "literature analysis" OR "scientific discovery") Vorsicht: Kann auch Treffer zur Firma OpenAI selbst liefern. Präziser mit Fokus auf Anwendungen. Evtl. kombinieren: "OpenAI" AND "ChatGPT" AND "research" Spezifisch: Andere Tools (Beispiel) "Deep Research" AND "AI" AND ("research tool" OR "literature review") Ersetzen Sie "Deep Research" durch andere bekannte Tool-Namen. Anführungszeichen sind wichtig, um genau diesen Namen zu finden. Kontext (AI, research tool) hilft zur Abgrenzung. Fokus: KI-Tools für Recherche "AI research tool" OR "AI literature review tool" OR "AI knowledge discovery platform" Sucht nach der Beschreibung von Werkzeugen selbst, nicht nur deren Anwendung. Kombination: Workflow & Spezifisches Tool ("research workflow" OR "literature review") AND ("ChatGPT" OR "Generative AI" OR "LLM") Kombiniert den Prozess (Workflow) mit den spezifischen Technologien/Tools. Alternative Formulierungen "intelligent research assistant" OR "AI co-pilot for research" OR "automated literature search" Fängt alternative Bezeichnungen und Konzepte auf.
 :::
 
+To be Done: Hier noch einfügen was die Resultate von Deep Research für KI Workflows erbrachten 
+
 ## Durchführung der Recherche
 
-
 ## Explorative Recherche mit Deep Research Tools zur Forschungsfrage
-
-### Durchführen der Deep Research Recherche
 
 Die weitergehende Forschung zu diesen beiden Tools noch fehlt, wurde der Report ohne weitere Instruktionen sowohl für Deep Research von Open AI und Deep Research (14.04.2025) direkt verwendet: 
 
@@ -130,6 +128,7 @@ Die weitergehende Forschung zu diesen beiden Tools noch fehlt, wurde der Report 
 # Verwendeter Prompt in Gemini Advanced (Deep Research mit 2.5 Pro) und ChatGPT Deep Research:
 Führe eine allumfassende Literaturrecherche zum Zusammenhang zwischen kognitiver Anstrengung (cognitive effort) und kognitiver Performance durch. Konzentriere dich dabei primär auf psychologische Studien und Modelle, beziehe aber sämtliche relevante Erkenntnisse aus angrenzenden Disziplinen wie den Kognitions- und Neurowissenschaften, Wirtschaftswissenschaften, Biologie etc. mit ein. Priorisiere bei der Recherche Publikationen aus hochrangigen, peer-reviewten Fachzeitschriften (High-Impact Journals). Die Recherche soll folgende Kernfragen beleuchten: Linearität: Gibt es Evidenz für einen direkten, linearen Zusammenhang zwischen dem Grad der unmittelbaren Anstrengung und dem Niveau der kognitiven Leistung? Nicht-Linearität & optimale Anstrengung: Welche Belege gibt es für nicht-lineare Zusammenhänge (z.B. U-förmig, invers U-förmig)? Unter welchen Umständen führt mehr Anstrengung nicht zu besserer Leistung oder sogar zu einer Leistungsverschlechterung? Moderierende Faktoren: Welche Variablen beeinflussen die Beziehung zwischen Anstrengung und Leistung maßgeblich (z.B. Aufgabenkomplexität, Aufgabentyp, Motivation, individuelle Fähigkeiten, Müdigkeit, Alter, wahrgenommene Selbstwirksamkeit)? Theoretische Grundlagen: Welche etablierten Theorien oder Modelle werden herangezogen, um diesen Zusammenhang zu erklären? Messung: Wie werden 'momentane kognitive Anstrengung' und 'kognitive Performance' in diesen Studien typischerweise operationalisiert und gemessen? Bitte synthetisiere die wichtigsten Ergebnisse äusserst ausführlich (10000 Seiten) , identifiziere zentrale Debatten oder Forschungslücken und erstelle eine Liste der relevantesten Schlüsselpublikationen (inklusive wichtiger Reviews oder Meta-Analysen). Wenn möglich, gib die Referenzen im APA 7 Format an oder stelle die Informationen so bereit, dass sie leicht in dieses Format überführt werden können. (1) Recherchiere etablierte Definitionen und Konzepte von kognitiver Anstrengung und kognitiver Leistung in der Psychologie, den Kognitions- und Neurowissenschaften sowie sämtlichen angrenzenden relevanten Disziplinen. (2) Suche nach empirischen Studien und Meta-Analysen, die einen linearen Zusammenhang zwischen dem Ausmaß kognitiver Anstrengung und dem Niveau kognitiver Leistung untersuchen. (3) Identifiziere Forschungsarbeiten, die nicht-lineare Beziehungen (z.B. invertierte U-Form) zwischen kognitiver Anstrengung und Leistung belegen, einschließlich Studien zu Phänomenen wie "Choking under Pressure" oder Leistungsabfall bei Überanstrengung. (4) Untersuche Studien, die Moderatoren der Beziehung zwischen kognitiver Anstrengung und Leistung analysieren, darunter: (a) Aufgabenmerkmale (z.B. Komplexität, Typ, Dauer) (b) Individuelle Unterschiede (z.B. Motivation, Fähigkeiten, Alter, Ermüdung, Selbstwirksamkeit) (c) Kontextfaktoren (z.B. Stress, Anreize) (5) Recherchiere zentrale theoretische Modelle, die zur Erklärung des Zusammenhangs zwischen kognitiver Anstrengung und Leistung herangezogen werden. Analysiere ihre Grundannahmen und Vorhersagen. (6) Finde heraus, wie kognitive Anstrengung (z.B. subjektive Bewertungen, physiologische Maße wie Pupillometrie, Herzratenvariabilität, EEG/fMRT) und kognitive Leistung (z.B. Genauigkeit, Reaktionszeit) in der Forschung typischerweise operationalisiert und gemessen werden. (7) Synthetisiere die Ergebnisse der Recherche, identifiziere zentrale wissenschaftliche Debatten, widersprüchliche Befunde und offene Forschungsfragen im Themenbereich. (8) Erstelle eine Liste der Schlüsselpublikationen (einschließlich wichtiger Übersichtsarbeiten und Meta-Analysen) zum Thema und extrahiere die bibliographischen Informationen (Autoren, Jahr, Titel, Zeitschrift, DOI), um eine Formatierung im APA-7-Stil zu ermöglichen.
 :::
+
 Auf die untenstehende Rückfrage von ChatGPT wurde mit "Den besten und umfangreichsten Report, den du anfertigen kannst" geantwortet:
 
 ::: {.callout-tip collapse="true"}
@@ -147,11 +146,12 @@ Möchtest du die Ergebnisse als Fließtext (z.B. für ein Paper) oder auch in Ta
 Sobald ich das weiß, starte ich direkt mit der Recherche!
 :::
 
-Anschliessend wurden beide Reports exportiert und abgespeichert, einmal für (Deep_Research_ChatGPT_Output..pdf) (14.04.2025)
+Nach dem mehrminütigen Bearbeiten der Aufgabe, wurden beide Reports exportiert und abgespeichert, einmal das Ergebnis von [📄 Deep_Research_ChatGPT_Output](Deep_Research_ChatGPT_Literatur_KI_Suche_Output.docx){.btn .btn-primary} sowie von Gemini 
+[📄 Deep_Research_Gemini_Output](Deep_Research_Gemini_Literatur_Performance_Effort_Output.docx){.btn .btn-primary}. Augenscheinvalidität zeigte ein deutlich besseres Ergebnis für Gemini, weshalb dieser Report weiter bearbeitet wurde.
 
 ## Aufbereitung des Textes und Konvertierung der Referenzen in APA7
 
-Der entstanden ChatGPT Deep Research Text Output (Deep_Research_ChatGPT_Output_2) wurde in Gemini eingefügt und der folgende Prompt ausgeführt: 
+Der entstandene ChatGPT Deep Research Text Output (Deep_Research_ChatGPT_Output_2) wurde in Gemini eingefügt und der folgende Prompt ausgeführt: 
 
 ::: {.callout-note collapse="true"}
 # Verwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):
@@ -159,21 +159,21 @@ Der entstanden ChatGPT Deep Research Text Output (Deep_Research_ChatGPT_Output_2
 .
 :::
 
-Das entstandene Dokument wurde erneut abgespeichert. (Deep_Research_ChatGPT_Output_2)
- [📄 Deep_Research_ChatGPT_Output_2](Deep_Research_ChatGPT_Output_2t.docx){.btn .btn-primary}
+Das neu entstandene Dokument wurde erneut abgespeichert [📄 Deep_Research_Gemini_Output_APA7](Deep_Research_Gemini_Output_APA7.docx){.btn .btn-primary}
+
+
 
 ## Ungültige Referenzen erkennen
-to be done (in Python mit API Google Gemini, evtl. Papers suchen)
+to be done (mit  Python evtl. Link checken,  mit API Google Gemini Deep_Research_Gemini_Output_APA7 inhaltlich checken, evtl. weitere Papers suchen)
 
-## Menschliche Endkontrolle
+## Menschliche Überprüfung
 to be done 
-
 
 
 ### Mögliches kausales Modell zeichnen aufgrund der Forschungsliteratur
 to be done (evtl. Papers suchen)
 
-## Reviewer Prozess
+## Ganzen Überprüfungsporzess automatisieren z.B. KI Reviewer Prozess
 to be done (https://agentlaboratory.github.io/ und ähnliche Papers)
 
 ::: {.callout-note collapse="true"}
