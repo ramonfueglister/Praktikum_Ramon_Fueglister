@@ -1,11 +1,11 @@
 ---
-title: "Literaturrecherche zur Beziehung von Effort und Performance"
+title: "Automatisierte Literaturrecherche zur (Beispiel Beziehung von Effort und Performance)"
 author: "Ramon Füglister"
 ---
 
 ## Aufgabe
 
-Gibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (Performance) und wenn ja, wie ist dieser Zusammenhang beschaffen (linear, polyonmial etc.)? Der Schwerpunkt der Recherche bilden die psychologischen Konstrukte kognitiver Effort und kognitive Leistung. Ein Ziel war es ausserdem die Suche soweit zu möglich mit KI Tools zu unterstützen und automatisieren.
+Gibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (Performance) und wenn ja, wie ist dieser Zusammenhang beschaffen (linear, polyonmial etc.)? Der Schwerpunkt der Recherche bildet der Zusammenhang der psychologischen Konstrukte kognitiver Effort und kognitive Leistung. Ein weiteres Ziel war es bausserdem die Suche soweit zu möglich mit KI Tools zu unterstützen und automatisieren.
 
 ## Resultat
 
@@ -166,14 +166,16 @@ Der entstanden ChatGPT Deep Research Text Output (Deep_Research_ChatGPT_Output_2
 Das entstandene Dokument wurde erneut abgespeichert. (Deep_Research_ChatGPT_Output_2)
  [📄 Deep_Research_ChatGPT_Output_2](Deep_Research_ChatGPT_Output_2t.docx){.btn .btn-primary}
 
-## Aufbereitung des Textes und Konvertierung der Referenzen in APA7
+## Ungültige Referenzen erkennen
 
+## Menschliche Endkontrolle
+to be done 
 
 ## Mögliches kausales Modell zeichnen aufgrund der Forschungsliteratur
-ToDo: 
+to be done 
 
 ## Reviewer Prozess
-Todo: https://agentlaboratory.github.io/ und ähnliche Papers
+to be done https://agentlaboratory.github.io/ und ähnliche Papers
 
 ::: {.callout-note collapse="true"}
 # Verwendeter Prompt in Gemini 2.5 Pro (Preview 03-25):
