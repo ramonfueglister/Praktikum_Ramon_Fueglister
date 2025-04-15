@@ -8,9 +8,9 @@ format: html
 
 Gibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (Performance) und wenn ja, wie ist dieser Zusammenhang beschaffen (linear, polyonmial etc.)? Der Schwerpunkt der Recherche bildet also der Zusammenhang der psychologischen Konstrukte kognitiver Effort und kognitive Leistung. Ein weiteres Ziel war es ausserdem die Literatursuche soweit zu möglich mit KI Tools zu unterstützen und automatisieren. Als Ausgangspunkt dient dazu das Paper von [Agent Laboratory](https://agentlaboratory.github.io/).
 
-## Resultat
+## Resultat (Stand. 15.04.2025)
 
-Der  [📄 Provisorische Report ](Deep_Research_Gemini_Literatur_Performance_Effort_Output.pdf) und ein Executive Summary [📄 Executive Summary](Executive_Summary.pdf) ist bereits verfügbar.
+Der [📄 Provisorische Report](Deep_Research_Gemini_Literatur_Performance_Effort_Output.pdf) und ein Executive Summary [📄 Executive Summary](Executive_Summary.pdf) ist bereits verfügbar.
 
 ## Auswahl der Methodik für die Recherche
 
@@ -65,7 +65,7 @@ Diese Tabelle bietet verschiedene Suchstring-Varianten, von breit bis spezifisch
 Hier ist eine Liste der wichtigsten Datenbanken, wobei der "freie Zugang" oft bedeutet, dass die Suche und Abstracts frei sind, der Volltext aber hinter einer Paywall liegen kann (oft über Universitäts-/Institutionsbibliotheken zugänglich).
 
 |                                                   |                                                                                                                                                   |                                                                                                                |                                                                                                                                                                                                                              |
-|-----------------|-----------------|-----------------|----------------------|
+|-----------------|-----------------|-----------------|---------------------|
 | Datenbank                                         | Fokus / Beschreibung                                                                                                                              | Zugang                                                                                                         | Relevanz für Ihr Thema                                                                                                                                                                                                       |
 | **Google Scholar**                                | Sehr breite Abdeckung über alle Disziplinen, inklusive Preprints, Konferenzbeiträge, Thesen. Einfache Suche, gute Zitationsverfolgung.            | Frei zugänglich (Suche & Abstracts). Volltexte oft verlinkt (manchmal frei, manchmal Paywall).                 | **Sehr hoch.** Exzellenter Startpunkt, findet viel, auch Graue Literatur und Preprints. Qualitätskontrolle ist aber geringer als bei kuratierten Datenbanken.                                                                |
 | **arXiv.org**                                     | Der Preprint-Server für Physik, Mathematik, Informatik (CS), Statistik, Elektrotechnik, Quantitative Biologie, Quantitative Finanzwissenschaften. | Völlig frei zugänglich (Suche & Volltexte).                                                                    | **Sehr hoch.** Hier werden die meisten bahnbrechenden Arbeiten im Bereich KI/ML zuerst veröffentlicht (als Preprints). Unverzichtbar für aktuelle Forschung, insbesondere aus der Informatik.                                |
@@ -151,13 +151,13 @@ Sobald ich das weiß, starte ich direkt mit der Recherche!
 Nach dem mehrminütigen Bearbeiten der Aufgabe, wurden beide Reports exportiert und abgespeichert, einmal das Ergebnis von [📄 Deep_Research_ChatGPT_Output](static/Deep_Research_ChatGPT_Literatur_KI_Suche_Output.docx) sowie von Gemini [📄 Deep_Research_Gemini_Output](static/Deep_Research_Gemini_Literatur_Performance_Effort_Output.docx). Augenscheinvalidität zeigte ein deutlich besseres Ergebnis für Gemini, weshalb dieser Report weiter bearbeitet wurde.
 
 ## Aufbereitung des Textes und Konvertierung der Referenzen in APA7
-To be done (Google Gemini ist überlastet...)
-Der entstandene Gemini Deep Research Text Output wurde in Googles AI Studio eingefügt und der folgende Prompt ausgeführt:
+
+To be done (Google Gemini ist überlastet...) Der entstandene Gemini Deep Research Text Output wurde in Googles AI Studio eingefügt und der folgende Prompt ausgeführt:
 
 ::: {.callout-note collapse="true"}
 Verwendeter Prompt in Gemini Advanced (Deep Research mit 2.5 Pro)
 
-Konvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und füge ein passendes überarbeitetes Literaturverzeichnis am Ende ein. Gib den Text schön formatiert aus. Den Rest des Textes niemals verändern, sämtliche Zitate und Quellen werden noch manuell anschliessend überprüft.[Hier steht der Textinput der Datei Deep_Research_Gemini_Literatur_Performance_Effort_Output.docx]
+Konvertiere sämtliche Referenzen in diesem Text in die passenden APA7 Zitate und füge ein passendes überarbeitetes Literaturverzeichnis am Ende ein. Gib den Text schön formatiert aus. Den Rest des Textes niemals verändern, sämtliche Zitate und Quellen werden noch manuell anschliessend überprüft.\[Hier steht der Textinput der Datei Deep_Research_Gemini_Literatur_Performance_Effort_Output.docx\]
 :::
 
 Das neu entstandene Dokument wurde erneut abgespeichert...
@@ -167,7 +167,8 @@ Das neu entstandene Dokument wurde erneut abgespeichert...
 to be done (mit Python evtl. Links checken, mit API auf Google Gemini / ChatGPT zurückgreifen? Ganzen Prozess automatisieren) Literaturrecherche nach Heuristiken um schlechte Papers erkennen? Philosophie: Erkenntnisstheorie? Hauptpunkt: Deep_Research_Gemini_Output_APA7 inhaltlich checken, evtl. weitere Papers zu Methoden suchen)
 
 ## Idee: Automate everything
-Gemini Deep Research hat bislang kein API, evtl. per Manus AI oder Open Source Lösungen Google Homepage ansurfen und Links klicken lassen? 
+
+Gemini Deep Research hat bislang kein API, evtl. per Manus AI oder Open Source Lösungen Google Homepage ansurfen und Links klicken lassen?
 
 ## Idee: Menschliche Überprüfung
 
