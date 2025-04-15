@@ -151,7 +151,7 @@
     "href": "1_Automatisierte_Literaturrecherche.html#aufgabe",
     "title": "1  Automatisierte Literaturrecherche mit KI (Beispiel Beziehung von Effort und Performance)",
     "section": "1.1 Aufgabe",
-    "text": "1.1 Aufgabe\nGibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (Performance) und wenn ja, wie ist dieser Zusammenhang beschaffen (linear, polyonmial etc.)? Der Schwerpunkt der Recherche bildet also der Zusammenhang der psychologischen Konstrukte kognitiver Effort und kognitive Leistung. Ein weiteres Ziel war es ausserdem die Literatursuche soweit zu möglich mit KI Tools zu unterstützen und automatisieren. Als Ausgangspunkt dient dazu das Paper von Agent Laboratory."
+    "text": "1.1 Aufgabe\nGibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (Performance) und wenn ja, wie ist dieser Zusammenhang beschaffen (linear, polynominal etc.)? Der Schwerpunkt der Recherche bildet also der Zusammenhang der psychologischen Konstrukte kognitiver Effort und kognitive Leistung. Ein weiteres Ziel war es ausserdem die Literatursuche soweit zu möglich mit KI Tools zu unterstützen und automatisieren. Als Ausgangspunkt dient dazu das Paper von Agent Laboratory."
   },
   {
     "objectID": "1_Automatisierte_Literaturrecherche.html#resultat",
@@ -249,7 +249,7 @@
     "href": "1_Automatisierte_Literaturrecherche.html#idee-automate-everything",
     "title": "1  Automatisierte Literaturrecherche mit KI (Beispiel Beziehung von Effort und Performance)",
     "section": "1.8 Idee: Automate everything",
-    "text": "1.8 Idee: Automate everything\nGemini Deep Research hat bislang kein API, evtl. per Manus AI oder Open Source Lösungen Google Homepage ansurfen und Links klicken lassen?"
+    "text": "1.8 Idee: Automate everything\nGemini Deep Research hat ein API, evtl. aber auch per Manus AI oder Open Source Lösungen Lösungen entwerfen?"
   },
   {
     "objectID": "1_Automatisierte_Literaturrecherche.html#idee-menschliche-überprüfung",
@@ -271,5 +271,12 @@
     "title": "1  Automatisierte Literaturrecherche mit KI (Beispiel Beziehung von Effort und Performance)",
     "section": "1.11 Idee: Evtl. alternative Recherche mit ChatGPT oder anderen Tools unter Berücksichtigung von passender Forschungsmethodik",
     "text": "1.11 Idee: Evtl. alternative Recherche mit ChatGPT oder anderen Tools unter Berücksichtigung von passender Forschungsmethodik\nto be done"
+  },
+  {
+    "objectID": "1_Automatisierte_Literaturrecherche.html#resultat-stand.-15.04.2025",
+    "href": "1_Automatisierte_Literaturrecherche.html#resultat-stand.-15.04.2025",
+    "title": "1  Automatisierte Literaturrecherche mit KI (Beispiel Beziehung von Effort und Performance)",
+    "section": "1.2 Resultat (Stand. 15.04.2025)",
+    "text": "1.2 Resultat (Stand. 15.04.2025)\nDer 📄 Provisorische Report und ein Executive Summary 📄 Executive Summary ist bereits verfügbar."
   }
 ]

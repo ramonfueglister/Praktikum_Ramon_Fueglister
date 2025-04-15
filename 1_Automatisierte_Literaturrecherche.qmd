@@ -6,7 +6,7 @@ format: html
 
 ## Aufgabe
 
-Gibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (Performance) und wenn ja, wie ist dieser Zusammenhang beschaffen (linear, polyonmial etc.)? Der Schwerpunkt der Recherche bildet also der Zusammenhang der psychologischen Konstrukte kognitiver Effort und kognitive Leistung. Ein weiteres Ziel war es ausserdem die Literatursuche soweit zu möglich mit KI Tools zu unterstützen und automatisieren. Als Ausgangspunkt dient dazu das Paper von [Agent Laboratory](https://agentlaboratory.github.io/).
+Gibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (Performance) und wenn ja, wie ist dieser Zusammenhang beschaffen (linear, polynominal etc.)? Der Schwerpunkt der Recherche bildet also der Zusammenhang der psychologischen Konstrukte kognitiver Effort und kognitive Leistung. Ein weiteres Ziel war es ausserdem die Literatursuche soweit zu möglich mit KI Tools zu unterstützen und automatisieren. Als Ausgangspunkt dient dazu das Paper von [Agent Laboratory](https://agentlaboratory.github.io/).
 
 ## Resultat (Stand. 15.04.2025)
 
@@ -65,7 +65,7 @@ Diese Tabelle bietet verschiedene Suchstring-Varianten, von breit bis spezifisch
 Hier ist eine Liste der wichtigsten Datenbanken, wobei der "freie Zugang" oft bedeutet, dass die Suche und Abstracts frei sind, der Volltext aber hinter einer Paywall liegen kann (oft über Universitäts-/Institutionsbibliotheken zugänglich).
 
 |                                                   |                                                                                                                                                   |                                                                                                                |                                                                                                                                                                                                                              |
-|-----------------|-----------------|-----------------|---------------------|
+|-----------------|-----------------|-----------------|--------------------|
 | Datenbank                                         | Fokus / Beschreibung                                                                                                                              | Zugang                                                                                                         | Relevanz für Ihr Thema                                                                                                                                                                                                       |
 | **Google Scholar**                                | Sehr breite Abdeckung über alle Disziplinen, inklusive Preprints, Konferenzbeiträge, Thesen. Einfache Suche, gute Zitationsverfolgung.            | Frei zugänglich (Suche & Abstracts). Volltexte oft verlinkt (manchmal frei, manchmal Paywall).                 | **Sehr hoch.** Exzellenter Startpunkt, findet viel, auch Graue Literatur und Preprints. Qualitätskontrolle ist aber geringer als bei kuratierten Datenbanken.                                                                |
 | **arXiv.org**                                     | Der Preprint-Server für Physik, Mathematik, Informatik (CS), Statistik, Elektrotechnik, Quantitative Biologie, Quantitative Finanzwissenschaften. | Völlig frei zugänglich (Suche & Volltexte).                                                                    | **Sehr hoch.** Hier werden die meisten bahnbrechenden Arbeiten im Bereich KI/ML zuerst veröffentlicht (als Preprints). Unverzichtbar für aktuelle Forschung, insbesondere aus der Informatik.                                |
@@ -168,7 +168,7 @@ to be done (mit Python evtl. Links checken, mit API auf Google Gemini / ChatGPT 
 
 ## Idee: Automate everything
 
-Gemini Deep Research hat bislang kein API, evtl. per Manus AI oder Open Source Lösungen Google Homepage ansurfen und Links klicken lassen?
+Gemini Deep Research hat ein API, evtl. aber auch per Manus AI oder Open Source Lösungen Lösungen entwerfen?
 
 ## Idee: Menschliche Überprüfung
 
