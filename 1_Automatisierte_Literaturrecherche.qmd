@@ -10,7 +10,7 @@ Gibt es in der Forschungsliteratur einen Zusammenhang von Effort und Leistung (P
 
 ## Resultat (Stand. 15.04.2025)
 
-Der [📄 Provisorische Report](Deep_Research_Gemini_Literatur_Performance_Effort_Output.pdf) und ein Executive Summary [📄 Executive Summary](Executive_Summary.pdf) ist bereits verfügbar.
+Der [📄 Provisorische Report](Deep_Research_Gemini_Literatur_Performance_Effort_Output.pdf) und ein [📄 Executive Summary](Executive_Summary.pdf) ist bereits verfügbar.
 
 ## Auswahl der Methodik für die Recherche
 
